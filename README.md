@@ -42,7 +42,7 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-
+The classifier sorts posts from a reddit community on AI safety (https://www.reddit.com/r/AIsafety/best/?screen_view_count=3&ext-referrer=SEO)
 
 ---
 
@@ -54,15 +54,26 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `Discussion`
 
-**Definition:**
+**Definition:** The post invites conversation at the end like "I'd be very interested to hear how you think about it."
 
 **Example 1:**
->
+> #### The big picture on The Hugging Face incident
+     The interesting part of the recent AI-agent incidents wasn't just what the agents did. It was how they learned to coordinate.
+
+     ...
+
+     I'm exploring this question further. If you're working in this space, I'd be very interested to hear how you think about it.
 
 **Example 2:**
->
+> #### We red teamed our own support agent with a long slow conversation. No single message was malicious, it still broke.
+
+     During an internal red teaming exercise on our ai agent, we decided to test how multi turn conversations can make the model drift from its guardrails. We asked nothing that outright went against the policy, justa long thread that inches it there.
+
+     ...
+
+     How sure are you that your agent holds up by message forty?
 
 ### `label_two`
 
