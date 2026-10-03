@@ -88,7 +88,7 @@ Ensures there's a fair representation for each label so the model is not biased 
 
 ---
 
-## 4. 
+## 4. Consistent Labeling
 
 <!-- Your criterion. -->
   If someone else labeled the same 20 held-out posts, they should agree with my original label at least 80% of the time.
@@ -101,14 +101,15 @@ My labels (hot-takes, sharing news, open-discussion) rely on some judgment calls
 
 ---
 
-## 5.
+## 5. Confident Labeling
 
 <!-- Your criterion. -->
+The model should be able to have at least a moderate accuracy in distinguishing between classes by having an AUC score of at least .7
 
 
 
 **Why this target:**
-
+AUC between .7 and .9 are considered to rank a model as good with moderate to strong predictive power.
 
 
 ---
