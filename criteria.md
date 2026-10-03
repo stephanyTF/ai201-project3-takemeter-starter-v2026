@@ -88,13 +88,14 @@ Ensures there's a fair representation for each label so the model is not biased 
 
 ---
 
-## 4.
+## 4. 
 
 <!-- Your criterion. -->
-
+  If someone else labeled the same 20 held-out posts, they should agree with my original label at least 80% of the time.
 
 
 **Why this target:**
+My labels (hot-takes, sharing news, open-discussion) rely on some judgment calls. For instance, a slightly charged discussion can read like a hot take when it actually opens up for mixed discussion. 80% raw agreement should allow for that ambiguity. 
 
 
 
