@@ -104,7 +104,7 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
      Sometimes, we may be looking at a mirror.
 
 
-### `Sharing News`
+### `sharing-news`
 
 **Definition:** Just shares a link or recent event with no strong opinion
 
