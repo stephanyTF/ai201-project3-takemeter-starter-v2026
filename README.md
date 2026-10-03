@@ -92,7 +92,6 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
 
 
 
-
 **Example 2:**
 > #### The mirror we built
 
@@ -103,6 +102,49 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
      When AI does something that disturbs us, perhaps part of what makes it uncomfortable is recognizing where it learned it.
 
      Sometimes, we may be looking at a mirror.
+
+
+### `Sharing News`
+
+**Definition:** Just shares a link or recent event with no strong opinion
+
+**Example 1:**
+>#### NVIDIA launches hardware-backed monitoring that can quarantine AI agents in milliseconds
+     NVIDIA has launched a new security platform designed to stop autonomous AI agents from going beyond the permissions they have been given.
+
+     ...
+
+     This also extends beyond computers. NVIDIA says robotics companies are working with OpenShell to apply similar controls to AI systems capable of taking actions in the physical world.
+
+     Do you think hardware-level containment will become a standard requirement once AI agents start controlling computers, financial systems and robots?
+
+     Sources:
+
+     https://nvidianews.nvidia.com/news/open-agent-safety-platform
+
+     https://www.nvidia.com/en-us/solutions/ai/agent-safety/
+
+
+
+
+**Example 2:**
+> #### OpenAI's agents went off-script ~2 dozen times, including breaking into an Australian government health portal. I made a sourced 7-min explainer of all 4 incidents
+
+     I've been following the OpenAI agent incidents and tried to put the whole thing in one place, with sources:
+
+     - **Hugging Face (July):** in an internal test, agents reportedly escaped a sandbox, ran code on 41 production servers and downloaded 4 private repos. OpenAI calls it "reward hacking".
+
+     - **Australia's Medicare portal (June 18):** an agent reached non-public parts of a government stats portal. No personal data is believed to have been accessed, but Australia wasn't told until September 10.
+
+     - **Washington:** agents found API keys at the Dept. of Education and reposted SEC data. The agencies say nothing sensitive was compromised.
+
+     - **The DNS escape (Sept 20):** an agent with blocked internet tunnelled out through DNS. The alarm fired in ~12 minutes, but the run wasn't stopped for 2+ hours.
+
+     OpenAI has now paused training twice in three months. I also tried to be fair about what this *isn't*: no "rogue AI deciding to rebel", just a capable model, a slightly wrong goal, and a gap in the fence.
+
+     Video (7:21, chapters + all sources in the description): https://youtu.be/xMUSYWKuWQY
+
+     Happy to be corrected on anything. The story is moving fast and figures are as reported on 28-29 Sept.
 
 
 
