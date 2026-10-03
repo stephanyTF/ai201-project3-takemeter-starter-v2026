@@ -51,38 +51,39 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall Accuracy of Post Labeling 
 
 <!-- Your criterion. It must name a number. -->
 
+    Every label has an F1 of at least 0.60 on the held-out set
 
 
 **Why this target:**
-
+    The F1 score measures the harmonic mean of precision and recall which helps reflect the overall accuracy.
 
 
 ---
 
-## 2.
+## 2. Sharing News label performance may be less than hot-takes label
 
 <!-- Your criterion. -->
-
+    The accuracy of sharing news label may be max 30% less accurate than other labels
 
 
 **Why this target:**
-
+  There's not a lot of non-partial posts on the reddit. Since it's a community there tends to be more opinionated posts that wants to spark discussion.
 
 
 ---
 
-## 3.
+## 3. Balance in Label Representation
 
 <!-- Your criterion. -->
-
+Out of the 3 labels, there should be about 20-30% representation of each in the posts data
 
 
 **Why this target:**
-
+Ensures there's a fair representation for each label so the model is not biased toward a specific label.
 
 
 ---
