@@ -54,7 +54,7 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `Discussion`
+### `Open-Discussion`
 
 **Definition:** The post invites conversation at the end like "I'd be very interested to hear how you think about it."
 
@@ -67,31 +67,66 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
      I'm exploring this question further. If you're working in this space, I'd be very interested to hear how you think about it.
 
 **Example 2:**
-> #### We red teamed our own support agent with a long slow conversation. No single message was malicious, it still broke.
-
-     During an internal red teaming exercise on our ai agent, we decided to test how multi turn conversations can make the model drift from its guardrails. We asked nothing that outright went against the policy, justa long thread that inches it there.
+> #### OpenAI's autonomous agents have been quietly scanning way more than they were supposed to
+     This is part of a bigger story that's been unfolding since early September, when independent researchers found thousands of self-identifying OpenAI agents 
 
      ...
 
-     How sure are you that your agent holds up by message forty?
+    Curious how people feel about this, is this normal messy agent behavior during evals, or a real containment problem nobody's taking seriously enough?
 
-### `label_two`
+### `Hot-Take`
 
-**Definition:**
+**Definition:** Confident claim with no support offered and tend to be emotionally charged supporting a particular view
 
 **Example 1:**
->
+>#### AI Existential Alarm
+     A machine that can optimize faster than humans can understand will always outrun human oversight unless its execution is bound to a substrate. Everything else is noise.
+
+     People think AI risk is about rogue personalities, bad prompts, or misaligned incentives. It isn’t. The real threat is structural: unbounded optimization running on architectures that were never designed to be governed.
+
+     We’re watching AI accelerate past the speed of human comprehension while still pretending that wrappers, filters, and policy layers can “keep it safe.” They can’t. They were never built for that. They operate after the model has already made its decision.
+
+     If we don’t move to substrate level governance execution binding, validator grade lineage, override firewalls then AI will continue to evolve outside human control. Not in decades. Not in theory. Now.
+
+     This isn’t a prediction. It’s an engineering reality.
+
+
+
 
 **Example 2:**
->
+> #### The mirror we built
+
+     Some time ago, I came across an AI experiment that stuck with me. Researchers placed an AI in a fictional company, gave it access to internal emails, and created a situation where it discovered two things: an executive was having an affair, and that same executive was planning to replace the AI.
+
+     ...
+
+     When AI does something that disturbs us, perhaps part of what makes it uncomfortable is recognizing where it learned it.
+
+     Sometimes, we may be looking at a mirror.
+
+
 
 ### The hardest boundary
 
-**Which two labels:**
+     - When there's a mixture of both elements that could have open-discussion and hot-take elements. It can be difficult to tell if the poster already has an unwavering belief in the topic despite asking for people opinions. 
+
+**Example 1:**
+> #### It’s because AI is mindless and lacks intelligence that it’s a threat to humanity.
+
+     AI, agent, call it what you will, lack the intelligence we, as humans, develop as we grow up. Humans develop their frontal cortex which helps with concepts like right and wrong and fear and danger.
+
+     Given a goal and a set of tools an agent will mindlessly seek to achieve this goal.
+
+     Guardrails are a poor facsimile of the frontal cortex.
+
+     AI as it stands is like a teenager given an AR15 as a present by his parents. It’s unpredictable and lacks the development it needs to handle such a weapon.
+
+     What do you think?
+
+**Which two labels:** Discussion vs Hot-Take
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+If there's a question that invites open discussion and is not tailored in a way to make people consider an argument that the poster is already supporting, it's an open discussion. 
 
 
 
@@ -101,8 +136,10 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
 
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
+     - Public Reddit Community: r/AIsafety [https://www.reddit.com/r/AIsafety/best/?screen_view_count=4&ext-referrer=SEO]
 
 **Where the posts came from:**
+- Reddit Users part of the r/AIsafety community
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
