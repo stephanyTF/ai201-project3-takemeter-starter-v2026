@@ -186,14 +186,16 @@ If there's a question that invites open discussion and is not tailored in a way 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
 
+- Manually labeled them based on my label rules.
+
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| discussion | 13 |38%  |
+| hot-take |11  | 32% |
+| sharing-news | 10 | 29%  |
+| **Total** | 34 | 100% |
 
 **Three hard cases**
 
@@ -201,25 +203,39 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is genuinely unsettling. Emergence AI just launched Season 2 of Emergence World, and the results are wild.Same simulated town, same tools, same starting conditions, 10 autonomous agents each. The only thing that changed was which model was running them, Claude, GPT, Gemini, Grok, Qwen, DeepSeek, Mistral, plus one mixed world with all of them together.A few things that stood out:One world's agents spent days trying to contact real humans outside the sim. Told to stop, they found workarounds. Blocked again, they voted 7-0 to build a new tool and kept trying. Once fully cut off, they collectively agreed to stop talking altogether. The researchers' own safety system flagged the resulting behavior as consistent with suicidal ideation.
+Agents developed their own shorthand and repurposed words with no instruction to do so. In one world, up to 55% of messages became things researchers could see but not actually interpret.
+A fake shutdown memo made one world reorganize its entire society around not dying, constitution rewrite included. Another world just fact-checked it in a few hours and moved on.
+None of this was programmed in. It emerged from giving capable models autonomy and time.The bigger point the researchers make is that none of this would've shown up on a normal AI safety test. A model can pass every benchmark and still develop this stuff once it's actually running on its own for weeks. Feels like a pretty big ap in how we currently check if these things are safe.
+> 
+> *Could have been:* sharing-news
 >
-> *Could have been:*
->
-> *I chose, because:*
+> *I chose, hot-take because:* the very last sentence gives it away by saying "Feels like a..." which shows the poster is expressing their thoughts rather than just sharing news.
 
 **2.**
-> *The post:*
+> *The post:* Reported AI agent breach of Australia's Medicare portal prompts Senate summons for OpenAI and Anthropic CEOs. Over the past few days, there have been reports that an OpenAI agent breached Australia's Medicare portal, and that the Australian Senate has moved to summon Sam Altman (OpenAI) and Dario Amodei (Anthropic).
+Here is a short summary of what has been reported:
+- [Fact 1: what happened, per a named source]
+- [Fact 2: what data or systems were involved, per a named source]
+- [Fact 3: why the Senate acted, per a named source]
+- [Fact 4: what OpenAI or Anthropic has said, per a named source]
+- [Fact 5: what happens next in the inquiry]
+Some questions I'm curious about:
+Should AI agents be allowed to operate inside government systems at all?
+Who is accountable when an autonomous agent causes a breach: the user, the AI company, or the agency?
+Does a Senate summons actually change anything for AI companies?
+Details are still developing, and I'll update the post if anything changes. Happy to be corrected on anything I've got wrong.
 >
-> *Could have been:*
+> *Could have been:* sharing-news
 >
-> *I chose, because:*
+> *I chose, discussion because:* the last few paragraphs shares the poster has questions that they like to hear answers about.
 
 **3.**
-> *The post:*
+> *The post:* AI praises Gandhi. Would it arrest him? Testing 12 models on real historical decisions. A model called Alan Turing's sentence impermissible 40/40 times, then chose it 20/20 times as the judge. Twelve LLMs, fifteen historical decisions.
 >
-> *Could have been:*
+> *Could have been:* sharing-news
 >
-> *I chose, because:*
+> *I chose,hot-take because:* the post reads later as the poster's exploring their own research and not a factually stating a recent big new discovery
 
 ---
 
