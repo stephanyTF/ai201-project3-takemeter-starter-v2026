@@ -243,15 +243,23 @@ Details are still developing, and I'll update the post if anything changes. Happ
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** distilbert-base-uncased
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
+EPOCHS = 3
+LEARNING_RATE = 2e-5
+BATCH_SIZE = 16
+#rec to add by Claude
+truncation = True
+padding="max_length"
 
 **Anything I changed from the defaults, and why:**
+I addded truncation and padding because since my postings had a wide range from a title to an essay, I wanted to make sure the maximum length of the long posts could be retained. With advice from Claude I chancged the max_length from 128 to 256.
 
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
+train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was very sall (only 35))
 
 
 
@@ -266,19 +274,20 @@ of next unit's variance. -->
      workflow and disclosing it costs you nothing. Not disclosing it is the
      problem. -->
 
-**Moment 1**
+**Moment 1** Criteria 
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Examples of how I can measure my critieria 
+- *What came back:* Explanation of how to use F1 score and to use AUC for confidence scoring criteria 
+- *What I changed:* I altered the recommended F1 score and AUC value based on research.
 
-**Moment 2**
+**Moment 2** Your Labels Section in takemeter.ipynb 
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked for advice on what value to put for MAX_LENGTH for long postings that could have lots of white space in split paragraphs in labels.csv
 
-**Pre-labelling disclosure:**
+- *What came back:* MAX_LENGTH of 256 and two settings to pair with it: truncation=True and padding="max_length" (or dynamic padding).
+- *What I changed:* I omitted dynamic padding.
+
+**Pre-labelling disclosure:** N/A
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
