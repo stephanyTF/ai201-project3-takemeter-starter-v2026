@@ -102,24 +102,9 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 **Definition:** Asking for advice to change a cat's behavior
 
 **Example 1:**
->#### How to de-condition my cats to Michael Jackson’s smooth criminal
+>#### Help with Kitten training
 
-     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
-
-     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
-
-     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
-
-     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
-
-     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
-
-     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
-
-     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
-
-     I am at a loss here. Please help
-
+     I recently rescued a kitten that was outside in the AZ summer heat. I do not know how old he is (he looks really young)and I am currently working on getting him to trust me and my other dogs that I currently have, and how to use the litter box and was wondering if anyone had any tips or help that I could use. This is my first cat and I just wanna make sure I’m doing things right for him.
 
 
 
@@ -147,10 +132,34 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
      Any suggestions? I have 8 days to continue to work on this. It has been just shy of a month now. They both have been with other cats before, especially our female who we adopted from a cat room, so it doesn’t make sense to me why she is being so aggressive.
 
 
-
 **Example 2:**
 >#### Struggling acclimating two cats 
      I have 2 cats, each around 2 years old now. My family and I raised them in a really big three story house. Now I’m moving out and I have to take the cats with me. I’m worried they might not be comfortable moving into a cramped apartment. (1 main room, 1 bathroom, no balcony)
+
+
+
+### `other`
+**Definition:** Any other posts that doesn't fit the other labels
+
+**Example 1:**
+>#### do basic research before asking reddit for advice
+>     most of you are grown adults. yet a lot of the times, i notice two things:
+>     basic, extremely google-able questions.
+>     people improvising key aspects of cat care, especially with socialization & first-time cat owner things, then asking redditors for
+>     tips on fixing their mistakes when they could've... googled it first and gotten their answers much more quickly and potentially not
+>             make the mistake in the 1st place.
+>     
+>     doesn't necessarily make someone a bad person, but maybe a more helpless one... and potentially chronically irresponsible by consequence  because of a lack of basic research skills and lack of proactivity.
+>     
+>     please. for the sake of yourself and your pet, google things first to see if you can get your answer in seconds. you could get your
+>     answer a lot faster, and even if you still ask clarifying questions on reddit, you'll have enough context to know when someone's saying
+>     something absolutely batsh*t. 🫶🏻
+
+**Example 2:**
+>#### does my cat know im drunk
+>     very important right now i think
+
+
 
 
 ### The hardest boundary
