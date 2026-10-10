@@ -155,25 +155,31 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 ### The hardest boundary
 
-     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it. However the distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
+     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it.  
 
 **Example 1:**
-> #### It’s because AI is mindless and lacks intelligence that it’s a threat to humanity.
+>#### How to de-condition my cats to Michael Jackson’s smooth criminal
 
-     AI, agent, call it what you will, lack the intelligence we, as humans, develop as we grow up. Humans develop their frontal cortex which helps with concepts like right and wrong and fear and danger.
+     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
 
-     Given a goal and a set of tools an agent will mindlessly seek to achieve this goal.
+     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
 
-     Guardrails are a poor facsimile of the frontal cortex.
+     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
 
-     AI as it stands is like a teenager given an AR15 as a present by his parents. It’s unpredictable and lacks the development it needs to handle such a weapon.
+     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
 
-     What do you think?
+     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
 
-**Which two labels:** Discussion vs Hot-Take
+     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
+
+     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
+
+     I am at a loss here. Please help
+
+**Which two labels:** `training` vs `accomodation`
 
 **The decision rule I used every time:**
-If there's a question that invites open discussion and is not tailored in a way to make people consider an argument that the poster is already supporting, it's an open discussion. 
+The distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
 
 
 
