@@ -155,7 +155,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 ### The hardest boundary
 
-     - When there's a mixture of both elements that could have open-discussion and hot-take elements. It can be difficult to tell if the poster already has an unwavering belief in the topic despite asking for people opinions. 
+     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it. However the distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
 
 **Example 1:**
 > #### It’s because AI is mindless and lacks intelligence that it’s a threat to humanity.
