@@ -42,7 +42,7 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-The classifier sorts posts from a reddit community on AI safety (https://www.reddit.com/r/AIsafety/best/?screen_view_count=3&ext-referrer=SEO)
+The classifier sorts posts from a reddit community on cat advice  (https://www.reddit.com/r/CatAdvice/)
 
 ---
 
@@ -54,98 +54,103 @@ The classifier sorts posts from a reddit community on AI safety (https://www.red
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `Open-Discussion`
+### `health`
 
-**Definition:** The post invites conversation at the end like "I'd be very interested to hear how you think about it."
+**Definition:** The post inquires about a cat's health which may include topics like vet visits or taking care of aging, sick, or injured cats (e.i. heart conditions, eyesight, broken bone)
 
 **Example 1:**
-> #### The big picture on The Hugging Face incident
-     The interesting part of the recent AI-agent incidents wasn't just what the agents did. It was how they learned to coordinate.
+> #### regular vet appt
+     how often are you guys taking your cats to see a vet? my pookie just saw someone in August and nothing has changed im not worried at all just wondering when when should i take her again
 
-     ...
-
-     I'm exploring this question further. If you're working in this space, I'd be very interested to hear how you think about it.
 
 **Example 2:**
-> #### OpenAI's autonomous agents have been quietly scanning way more than they were supposed to
-     This is part of a bigger story that's been unfolding since early September, when independent researchers found thousands of self-identifying OpenAI agents 
+> #### Cat has a broken paw, managed to slide off her cast twice now.
+     I'm really at my wits end and don't know what to do going forward.
 
-     ...
+     At the beginning of the month, one of my family's cat's broke her paw. She had a botched landing from a jump. We took her to the emergency vet and got her patched up, but unfortunately she has managed twice now to pull her paw out of the cast.
 
-    Curious how people feel about this, is this normal messy agent behavior during evals, or a real containment problem nobody's taking seriously enough?
+     She's going back to the emergency vet to get another one put on, but at this point I don't know what to do if she's messed it up again, or if it won't heal.
+    
 
-### `Hot-Take`
+### `behavior`
 
-**Definition:** Confident claim with no support offered and tend to be emotionally charged supporting a particular view
+**Definition:** Asking for help when it comes to understanding a cat's behavior like why a cat is more active during certain times or suddenly acting in a different way. 
 
 **Example 1:**
->#### AI Existential Alarm
-     A machine that can optimize faster than humans can understand will always outrun human oversight unless its execution is bound to a substrate. Everything else is noise.
+>#### I feel so dumb for not realizing my cat just wanted to be included on my desk
+    My six year old cat has been pretty vocal most of her life this far, but recently she’s been very persistent to keep my attention. For a few weeks I figured this was due to her recent issues with a prior UTI and her discomfort with a urinary crystal (scheduled to be removed next week), so I got her a low dose prescription for gabapentin. This calmed her down a tad, but it didn’t stop her from sitting next to my chair and nipping me for attention.
 
-     People think AI risk is about rogue personalities, bad prompts, or misaligned incentives. It isn’t. The real threat is structural: unbounded optimization running on architectures that were never designed to be governed.
+     Today she was meowing anytime I looked away from her after I let her into the office, so I decided to look up specifically why cats might get more demanding when you sit to work at your desk. Well, turns out this is pretty common as most of you probably know. And the most common solution I found was to make a space on the desk for the cat to feel “included.” So I shuffled some things around to fit her bed next to my work equipment on the desk.
 
-     We’re watching AI accelerate past the speed of human comprehension while still pretending that wrappers, filters, and policy layers can “keep it safe.” They can’t. They were never built for that. They operate after the model has already made its decision.
+     And wouldn’t you know it, this calmed her down immediately. No more yelling in my ear. No more nips for attention. She made herself at home and continued observing me as I got to work this morning.
 
-     If we don’t move to substrate level governance execution binding, validator grade lineage, override firewalls then AI will continue to evolve outside human control. Not in decades. Not in theory. Now.
+     I’ve grown up with cats all my life. I’m 35, and I feel so silly for not even considering this prior to now. I’m always learning something new with these guys!
 
-     This isn’t a prediction. It’s an engineering reality.
+     Edit - I’m loving all your stories and pictures of your own desk setups for the cats! It’s so fun to see how everyone has accommodated their own little supurrvisors. Thank you for sharing and teaching me a new way to keep my cats happy!
 
 
 
 **Example 2:**
-> #### The mirror we built
+> #### Cat only wants to drink from faucets
 
-     Some time ago, I came across an AI experiment that stuck with me. Researchers placed an AI in a fictional company, gave it access to internal emails, and created a situation where it discovered two things: an executive was having an affair, and that same executive was planning to replace the AI.
+     My female cat only wants to drink from faucets. She is constantly jumping into the tub or on the bathroom sink and rubbing her face on the faucet while meowing. We have gotten her a variety of fountain type bowls, even one with an actual mini sink faucet, and she just knocks the tops off of them. Our male cat has no issue drinking out of any of the fancy fountains we have bought or just a regular bowl and we change the water and filters regularly. I’m worried she is depriving herself of adequate water, but don’t want to always give in and turn the faucet on for her. She is a rescue that we have had for almost 2 years, she was surrendered at age 3 so I’m not sure what her previous owner was doing. What do I do?
 
-     ...
-
-     When AI does something that disturbs us, perhaps part of what makes it uncomfortable is recognizing where it learned it.
-
-     Sometimes, we may be looking at a mirror.
+    
 
 
-### `sharing-news`
-
-**Definition:** Just shares a link or recent event with no strong opinion
+### `training`
+**Definition:** Asking for advice to change a cat's behavior
 
 **Example 1:**
->#### NVIDIA launches hardware-backed monitoring that can quarantine AI agents in milliseconds
-     NVIDIA has launched a new security platform designed to stop autonomous AI agents from going beyond the permissions they have been given.
+>#### How to de-condition my cats to Michael Jackson’s smooth criminal
 
-     ...
+     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
 
-     This also extends beyond computers. NVIDIA says robotics companies are working with OpenShell to apply similar controls to AI systems capable of taking actions in the physical world.
+     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
 
-     Do you think hardware-level containment will become a standard requirement once AI agents start controlling computers, financial systems and robots?
+     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
 
-     Sources:
+     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
 
-     https://nvidianews.nvidia.com/news/open-agent-safety-platform
+     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
 
-     https://www.nvidia.com/en-us/solutions/ai/agent-safety/
+     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
+
+     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
+
+     I am at a loss here. Please help
 
 
 
 
 **Example 2:**
-> #### OpenAI's agents went off-script ~2 dozen times, including breaking into an Australian government health portal. I made a sourced 7-min explainer of all 4 incidents
+> #### Training Advice
 
-     I've been following the OpenAI agent incidents and tried to put the whole thing in one place, with sources:
+     Hi everyone! I recently adopted a tabby kitten (2 months old right now, but will be 3.5-4months by the time I can actually bring him home) and I need beginner advice on how I should start training him the moment I bring him home.
 
-     - **Hugging Face (July):** in an internal test, agents reportedly escaped a sandbox, ran code on 41 production servers and downloaded 4 private repos. OpenAI calls it "reward hacking".
+     I’ve never had any sort of pets before, although I’ve cat sat for long amounts of time and I adore them so much. I want advice (or even just YouTube videos) to see how I should handle being a first time cat mom as I’m pretty anxious about it.
 
-     - **Australia's Medicare portal (June 18):** an agent reached non-public parts of a government stats portal. No personal data is believed to have been accessed, but Australia wasn't told until September 10.
+     I also want to eventually get him used to being outdoors, being around people, and maybe even taking him camping/travelling way down the line.
 
-     - **Washington:** agents found API keys at the Dept. of Education and reposted SEC data. The agencies say nothing sensitive was compromised.
+     Any advice on training (or general cat advice) would be greatly appreciated 😭😭
 
-     - **The DNS escape (Sept 20):** an agent with blocked internet tunnelled out through DNS. The alarm fired in ~12 minutes, but the run wasn't stopped for 2+ hours.
 
-     OpenAI has now paused training twice in three months. I also tried to be fair about what this *isn't*: no "rogue AI deciding to rebel", just a capable model, a slightly wrong goal, and a gap in the fence.
+### `accomodation`
+**Definition:** Considering emotional and physical needs of cat when external factors come into conflict such as (presence of other people, animals, beings, change in owner's lifestyle that may disrupt the cat's normal living conditions)
 
-     Video (7:21, chapters + all sources in the description): https://youtu.be/xMUSYWKuWQY
+**Example 1:**
+>#### Struggling acclimating two cats 
+     Hey all. We have two cats as of now and we have had a long conversation which included many tears of my own about rehoming our recently adopted cat. 
 
-     Happy to be corrected on anything. The story is moving fast and figures are as reported on 28-29 Sept.
+     ...
 
+     Any suggestions? I have 8 days to continue to work on this. It has been just shy of a month now. They both have been with other cats before, especially our female who we adopted from a cat room, so it doesn’t make sense to me why she is being so aggressive.
+
+
+
+**Example 2:**
+>#### Struggling acclimating two cats 
+     I have 2 cats, each around 2 years old now. My family and I raised them in a really big three story house. Now I’m moving out and I have to take the cats with me. I’m worried they might not be comfortable moving into a cramped apartment. (1 main room, 1 bathroom, no balcony)
 
 
 ### The hardest boundary
