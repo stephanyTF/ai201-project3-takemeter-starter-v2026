@@ -212,12 +212,12 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-| behavior | 30 |38%  |
-| training  | 30  | 32% |
-| health | 30 | 29%  |
-| accommodation | 30 | 
-|other |  |
-| **Total** | 34 | 100% |
+| behavior | 30 |24%  |
+| training  | 30  | 24% |
+| health | 25 | 20%  |
+| accommodation | 31 |  24% | 
+|other | 11 | 9% | 
+| **Total** | 127 | 100% |
 
 **Three hard cases**
 
