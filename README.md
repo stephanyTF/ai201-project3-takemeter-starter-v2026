@@ -298,12 +298,12 @@ train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was 
 - *What came back:* Explanation of how to use F1 score and to use AUC for confidence scoring criteria 
 - *What I changed:* I altered the recommended F1 score and AUC value based on research.
 
-**Moment 2** Your Labels Section in takemeter.ipynb 
+**Moment 2** Missing Training data from Train/Test split 
 
-- *What I asked for:* I asked for advice on what value to put for MAX_LENGTH for long postings that could have lots of white space in split paragraphs in labels.csv
+- *What I asked for:* I asked why does my 30 training labeled rows not end up at all in the train, val, nor test set.
 
-- *What came back:* MAX_LENGTH of 256 and two settings to pair with it: truncation=True and padding="max_length" (or dynamic padding).
-- *What I changed:* I omitted dynamic padding.
+- *What came back:* It thinks the table display is cut off and there may not be an exact match in label string which may have resulted in it getting dropped
+- *What I changed:* I decided to let it be
 
 **Pre-labelling disclosure:** N/A
 
