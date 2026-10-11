@@ -277,7 +277,7 @@ I changed nothing. Kept the defaults because the posts didn't had any unique fea
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
-train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was very sall (only 127))
+train 88  ·  val 19  ·  test 20 (Note due to running out of time, data pool was very sall (only 127))
 
 
 
@@ -348,30 +348,43 @@ The trained model seem to perform worse than the baseline for all labels except 
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.300 | 0.200 | 0.250 | 0.100 |
+| Macro F1 | 0.210 | 0.117 | 0.080 | 0.130 |
+| F1 — `behavior` | 0.353 | 0.300 | 0.000 | 0.353 |
+| F1 — `health` | 0.000 | 0.000 | 0.000 | 0.000 |
+| F1 — `accomodation` | 0.333 | 0.286 | 0.400 | 0.114 |
+| F1 — `training` | 0.364 | 0.000 | 0.000 | 0.364 |
+| F1 — `other` | 0.000 | 0.000 | 0.000 | 0.000 |
+
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall Accuracy of Post Labeling | .6 | .3 |.2  | .25 | NOT MET
+| 2. `other` label performance may be less than rest of the other labels  | -/+ 30% max | -36% max | -33% max | -40% max | MET
+| 3. Balance in Label Representation  | 20-30% Rep for each label | ~ | ~ | ~ | NOT MET (may need to revise)
+| 4. Consistent Labeling | .7 | .3 | .2 | .25 | NOT MET 
+| 5.  Confident Labeling  | AUC Score >= .7 | ~ | ~ | ~  | NOT MET (may need to revise)
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
-|---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+ true \ predicted | behavior | health | accomodation | training | other |
+|---|---|---|---|---|---|
+| **behavior** | 3 | 0 | 0 | 2 | 0 |
+| **health** | 3 | 0 | 0 | 1 | 0 |
+| **accomodation** | 3 | 0 | 1 | 1 | 0 |
+| **training** | 2 | 0 | 0 | 2 | 0 |
+| **other** | 1 | 0 | 0 | 1 | 0 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
-
+     3 real `health` posts called `behavior` but 0 `behavior` posts called `health`
 
 
 ---
@@ -383,11 +396,11 @@ The trained model seem to perform worse than the baseline for all labels except 
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall Accuracy of Post Labeling | .6 | NOT MET | Based it off the accuracy from the Run Log |
+| 2 | `other` label performance may be less than rest of the other labels | -/+ 30% max | MET | Based from Run Log |
+| 3 | Balance in Label Representation |20-30% Rep for each label  | ~ | Not able to assess from run log nor results |
+| 4 | Consistent Labeling | .7 | NOT MET  | Based on accuracy scores (may need revision to differentiate from Accuracy Criteria)  |
+| 5 | Confident Labeling | AUC score of at least .7 | NOT MET |  Immeasurable since no AUC is given in the tables or output   |
 
 **Diagnoses**
 
@@ -400,6 +413,10 @@ The trained model seem to perform worse than the baseline for all labels except 
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+1. Overall Accuracy of Post Labeling: Not clearly defined labels and possibly not enough data (127/200)
+3. Balance in Label Representation: Critierion couldn't be measured based from run log and results
+4. Consistent Labeling: Critierion couldn't be measured based from run log and results
+5. Confident Labeling: Critierion couldn't be measured based from run log and results
 
 
 ---

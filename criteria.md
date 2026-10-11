@@ -79,7 +79,7 @@ whether you hit them:
 ## 3. Balance in Label Representation
 
 <!-- Your criterion. -->
-Out of the 3 labels, there should be about 20-30% representation of each in the posts data
+Out of the 5 labels, there should be about 20-30% representation of each in the posts data
 
 
 **Why this target:**
