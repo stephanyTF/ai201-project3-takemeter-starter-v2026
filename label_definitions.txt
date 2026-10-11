@@ -5,6 +5,8 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+behavior: Asking for help when it comes to understanding or finding the reason for a cat's behavior like why a cat is more active during certain times or suddenly acting in a different way.Most post usually have the word 'behavior' in them. 
+training: Asking for advice to change a cat's behavior towards a certain goal. This may involve repeated training and posts usually have the word "train/ training" in them.
+accomodation: Considering emotional and physical needs of cat when external factors come into conflict such as (presence of other people, animals, beings, change in owner's lifestyle that may disrupt the cat's normal living conditions)
+health: The post inquires about a cat's health which may include topics like vet visits or taking care of aging, sick, or injured cats (e.i. heart conditions, eyesight, broken bone)
+other: Any other posts that doesn't fit the other labels

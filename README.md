@@ -74,7 +74,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 ### `behavior`
 
-**Definition:** Asking for help when it comes to understanding a cat's behavior like why a cat is more active during certain times or suddenly acting in a different way. 
+**Definition:** Asking for help when it comes to understanding or finding the reason for a cat's behavior like why a cat is more active during certain times or suddenly acting in a different way. Most post usually have the word 'behavior' in them. 
 
 **Example 1:**
 >#### I feel so dumb for not realizing my cat just wanted to be included on my desk
@@ -99,7 +99,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 
 ### `training`
-**Definition:** Asking for advice to change a cat's behavior
+**Definition:** Asking for advice to change a cat's behavior towards a certain goal. This may involve repeated training and posts usually have the word "train/ training" in them. 
 
 **Example 1:**
 >#### Help with Kitten training
@@ -277,7 +277,7 @@ I changed nothing. Kept the defaults because the posts didn't had any unique fea
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
-train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was very sall (only 35))
+train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was very sall (only 127))
 
 
 
@@ -319,16 +319,21 @@ train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was 
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
-| Measure | Baseline | Trained | Difference |
-|---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Measure | Baseline |
+|---|---|
+| Overall accuracy | 0.500 |
+| Macro F1 | 0.389 |
+| F1 — `accomodation` | 0.526 |
+| F1 — `behavior` | 0.000 |
+| F1 — `health` | 0.667 |
+| F1 — `other` | 0.000 |
+| F1 — `training` | 0.750 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+     I think my trained model will not beat it because there’s too many categories and the size of the data is only 127 rows (still a little far from the 200 expected labels)
+
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added

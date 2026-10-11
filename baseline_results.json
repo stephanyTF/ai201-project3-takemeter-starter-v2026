@@ -1,0 +1,146 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 20,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 20,
+    "accuracy": 0.5,
+    "f1_macro": 0.38859649122807016,
+    "per_label": {
+      "accomodation": {
+        "precision": 0.35714285714285715,
+        "recall": 1.0,
+        "f1": 0.5263157894736842,
+        "support": 5
+      },
+      "behavior": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5
+      },
+      "health": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 4
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      "training": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75,
+        "support": 4
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "How do you cope with ongoing medical issues? I live alone and I have no car. My 12-year-old cat has so many medical issues. In the past 9 months I\u2019ve had to take him to the regular vet 4 times and also the emergency vet twice. The cost of these visits, the medications and the cab rides - in addition to his prescription diet and other regular cat costs - have meant that I\u2019m spending 4 x more per year than I ever expected to pay for a pet.\n\nBut even more difficult is the ongoing stress. I never know when he\u2019s going to get sick. It\u2019s hard to plan trips and during my rare weekends away, I\u2019m so worried he will have a health emergency. My schedule has been turned upside down recently: I spend so much time doing vet visits/ vet phone calls, giving him meds, researching and ordering prescription foods, and cleaning up the floors which are increasingly messy with litter and accidents (small amounts of pee, poo and other body fluids).\n\nI have had to ask my manager to give me some flexibility on my work hours in order to manage all of these things, but I don\u2019t think she wants to keep making these exceptions for me. Work is very busy right now and it\u2019s really hard to cope with the additional stress of my cat.\n\nJust wondering how others are coping with these kinds of stressors?",
+      "gold": "health",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Collar Training Hello! For context my cat is about 8, she's an inside-outside hybrid with free movement between the two places. We live in an apartment complex and all the neighbors adore her, she's been inside-out for the whole time we've had her and we've never had any negative incidents until recently.\n\nThe negative incident is this new policy for no pets. Before my parents died last year, she was my cat but my dad helped me with her.. Now she's been passed down to me and she's solely my responsibility. I'm essentially a teen cat parent. I'm currently trying to get her designated as my support animal, as those are exceptions to the rule alongside service animals, but until then the manager said she needs to wear a collar so the cat-trappers don't mistake her for a stray.\n\nBefore anyone gives me anything, I am not neglecting my cat. She's happy and soon to be fixed (there's no vet in our town and we don't have a car so we have to wait for this program they have every few months.)\n\nI got her a breakaway with a bell since that's all I could afford, she doesn't mind the collar but hates the bell. Is there any way I could desensitize her to it? Or should I find a way to take it off. She seems to like the design and the way it fits otherwise. Any tips, tricks, and advice are welcome.",
+      "gold": "training",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Cat Health Yesterday i adopted a cat from the shelter. They said he was a stray and estimated his age to be around 4 years old. He was castrated after arriving at the shelter.\n\nHe is very friendly from the beginning and had no problem using the litterbox, but i have some doubts about his health.\n\n* After pooping his butt smells quite bad and some liquid poop stayed on his butt.\n* he sheds A LOT of hair, even after lots of combing it does not become less.\nHe leaves tiny puddles of pee in random places.\n\nI also believe he has a little trouble cleaning himself, i see him not do it very often as i see other cats do it.\n\nWhat do i do? A visit to the vet is definitely a must, but if anyone has experience with these things i would love to hear about it.",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Any tips for healthy cat? First time having a cat. She turns 1 in a few weeks. All I do is give food and toys. Not sure what foods are good to be honest I never got to conclusions. So I just do mix Purina one, Felix, gourmet, and wellness core dry as well.\n\nAre there any supplements to keep her healthy? Such as urinary support, extra vitamins anything that might prevent problems before they even start. Something good for vision, any specific toothpaste and also any specific toothbrush since atm I just use a baby toothbrush. Just anything extra I can do for her\n\nAre there any particular types of toys to keep her happy as she is used to then balls, mice, coils. Bought a bird that makes sound but didn't ever play with it.",
+      "gold": "health",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "How can I help my cat\u2019s behaviour issues I don\u2019t know what to do anymore. I\u2019m 20 and moved out of home 1 year ago and had to take my 9yr cat with he his whole life he has always had access to the outside where he used to go to the bathroom, we have tried everything of the past year to get him to use the litter box. Sometimes he does other he just won\u2019t. We have used deterrent spray, we got him a seperate box to the other cat. We even tried giving him treats after he used the box but he learned to only pee a little in the box to get a treat then he would do the rest in the kitchen. We took him to the vet and there is nothing wrong with him in that regard. I\u2019m seriously out of ideas don\u2019t want to have to take him back because I love him and he was getting hurt a lot outside.\nIf anyone has ideas please help",
+      "gold": "behavior",
+      "predicted": "training"
+    },
+    {
+      "text": "Southwest Approved Carrier for x2 CATS! Hi there, I am moving soon and plan to take the plane. It'll be a 5-8 hour flight. Southwest is my cheapest option, and I am trying to find a carrier that can accommodate two mid/adult-sized cats. And is still within Southwest's maximum dimension requirements, which are:\n\n18.5\u201d (L) x 13.5\u201d (W) x 9.5\u201d (H). \n\nAny suggestions/help is most appreciative! I tried looking but couldn't really find anything to help with both of my kitties",
+      "gold": "accomodation",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Vent/help with behavioral problems I have a male cat he\u2019ll be 2 in April. I have had him for a year and half now he\u2019s always been a bit crazy but is just escalating to a point I can\u2019t take. He is basically a raccoon looking for food always! He\u2019s on a scheduled feeder he eats plenty but is always trying to find more of anything. I have had to child lock every cabinet that has any type of food in our house plus the fish tank, he is still getting past some of the locks. He gets in to the sink pulls stuff out and breaks our dishes. Does anyone have advice to correct this issue he\u2019s not afraid of water or tinfoil\u2026 tia",
+      "gold": "behavior",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "People who live in loud, unpredictable cities, how did you acclimate your cat? We live next to the train, trolley, ballpark, and main drag of our city. Unexpected fireworks, protests, and the earthshattering boom of train carts slamming together at 3am are a constant in our apartment.\n\nWe recently fostered a 1 year old male cat and he started displaying some troubling symptoms. After every test under the sun he was diagnosed with Feline idiopathic cystitis (FIC). Basically stress makes his bladder become inflamed. We tried closing the windows, noise makers, running the AC and cat TV as well as CBD drops, Silvervine, extensive play sessions but nothing seemed to calm him down. The vet suggested we put him on gabapentin for him to continue living with us.\n\nHe's now back at the rescue in nice quiet suburbia but we are hesitant to bring another cat in just to have them be stressed.\n\nHow did you acclimate your cat to noisy living? Did you have them as a kitten and they just got used to it?",
+      "gold": "accomodation",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Is this standard behavior? I have a 9 month male tuxedo. A feral cat had kittens under our house, and we managed to safely trap them and take them to a clinic that fixes freaks and rereleases them. We\u2019re now fostering the kittens until they\u2019re old enough to adopt out.\n\nAs we\u2019ve slowly been doing introductions for about a week, we\u2019ve been trying to watch their behavior as closely as possible to make sure everyone\u2019s safe and happy. The only thing that\u2019s concerning is my tuxedo keeps \u201cbiting\u201d the babies. It\u2019s not really a but though, more like occasionally pinning them and placing his teeth on their back/back of neck. The kittens don\u2019t ever cry, and it\u2019s never longer than 10 seconds until he lets them up. Is this just him asserting some sort of dominance? I\u2019ve never seen this in my 10 years of owning cats.",
+      "gold": "behavior",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Update on my cat not letting me sleep/waking me up in the middle of the night\u2014she caught a health issue. Long story short, my cat kept waking me up randomly at night and not letting me sleep, then not letting me sleep in on days that I could even after feeding her.\n\nI have a smartwatch and it among other things like being a watch also tracks my oxygen levels and heart rate and stuff at night. She woke me up again this morning at around 4:30 and very violently would not let me go back to sleep. I sat up and noticed that I felt pretty winded and so I opened up my watch and my oxygen levels had dropped from 95 to 89. Then I saw that it did the same thing yesterday right before she woke me up.\n\nThen I went back and started checking, and almost every time she\u2019s just randomly woken me up has correlated with my oxygen dropping below normal. I don\u2019t know if I was breathing funny or if she just knew something was up, and I know correlation doesn\u2019t equal causation, but the pattern is WAY too obvious, and I already know I have breathing struggles while I\u2019m awake.\n\nSo I guess I\u2019m going to get a sleep study done. Cats, man. She\u2019s sleeping by my feet now. Completely content now that it\u2019s back to normal. I don\u2019t know if she knows how smart and awesome she is, but man I love her so much. She can be an absolute bully sometimes but it\u2019s always out of love.\n\nEdit: sometimes cats are just jerks\u2014this doesn\u2019t always mean something is wrong! Always consult with a medical professional when you suspect something may be going on :) in my case I have had these symptoms for years and never explored sleep apnea as a diagnosis and wouldn\u2019t have thought to do so until now, after noticing this pattern thanks to Bast. Cat tax shall be added!",
+      "gold": "other",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Cat Care Need practical hacks for my new cat! (No judgment please, read below) \ud83d\udc31\ud83d\ude4f\n\nI just adopted a 4-year-old Siamese cat (I\u2019m its 3rd owner).\n\nThe history:\n\nThe 1st owner said it used to wander.\n\nThe 2nd owner (my cousin) had multiple cats and said it stayed indoors for 3 months.\n\nNow, it\u2019s the only cat in my house.Our setup: We always keep our doors and windows open for airflow.Before anyone judges, I know many pet owners (including my cousin) leave their doors open without their pets running away.\n\nBut because this cat is still adjusting to its 3rd home, I am terrified it might wander off and a neighbor might pick it up.\n\nSince keeping the house locked shut isn't an option, what are the best ways to keep it safe while keeping the house breezy?",
+      "gold": "accomodation",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Litter box training a rescue kitten who eats litter (4 week old) Kittens momma isn't here so she can't learn from another cat how to use the litter box, she ate normal litter so I had to get pellets, I put her pee rags in the litter box, cut the parts of blankets she has peed on and put them in there, I stimulated her over the litter box to help her pee there, I dug her paws in it hoping instinct would take over, no luck. I have two litter boxes in her small area, I put her in after eating, she just jumps out. I don't think she likes the pellets but I have no choice because I don't want her to get sick. Any suggestions?",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Need advice for a new living arrangement. I will be moving into a basement room in a house share situation soon. The room is very large, but it has no windows.\n\nUnfortunately, the house has 5 other cats, and my cat is extremely scared and avoidant of other cats. When I lived with my mom and her cats, they never ended up getting along in all the years living together.\n\nMy cat is now elderly at 13 years of age, and I'm not happy about putting her into such a stressful move at this point in her life. I want to make her as happy and comfortable as possible. But I'm worried about keeping her in a room with no windows.\n\nMy idea was to have a large tv on the wall that would play outdoor and animal scenes from Youtube, but I know that does not replace the heat and light of the sun.\n\nAny advice for her quality of life in this situation?\n",
+      "gold": "accomodation",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Kitten developed a bizarre behavioral habit? Opinion? My 10 month old boy kitten Talos developed an odd behavior the last month and im unsure why, lol.\n\nHe recently started a very peculiar habit of hissing while making biscuits and kneading lol.\n\nIm not asking for a remedy or even that worried about it honestly, because hes showing no signs of aggression and even purrs as hes doing it.\n\nIm more curious about any explanation or if anyone else has experienced this.\n\nI almost think of it like a \"im so happy\" because hes genuinely very obviously and notably happy and content, which is why this has been so bizarre lol.\n\nHe'll jump up, start kneading on my stomach, purring, hiss, keep kneading and then collpase to nap on top of me purring.",
+      "gold": "behavior",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Clicker training treats? I\u2019d love to clicker train my cat but I\u2019ve tried giving her lots of different treats and while she generally eats them eventually (sometimes not at all) she doesn\u2019t get excited about them enough for them to serve as an incentive. I need to have a treat she cares about for clicker training to work right? Is there another way to do it?",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "does my cat know im drunk very important right now i think",
+      "gold": "other",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "Potty training help I\u2019m new. I hope this is allowed. This isn\u2019t our first cat. This IS our first kitten. My brother\u2019s roommate rescued a cat, only to discovered that she was pregnant. We recently lost our 14 year old cat to cancer. So we decided to rescue a kitten from them. We were told he was potty trained by his mama. He is 8 weeks old. He is doing fantastic during the day. But every night he is pooping outside the litter box. I clean out litter box every night before bed. It doesn\u2019t matter. He still poops 2-3 times at night near litter box but not in it. Any suggestions?",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Swedish cat health guidelines Hello everyone, I recently heard about the new swedish law about indoor cat health care (mostly I heard about the increased amount of hours of play per day) and I was wondering if there is a real \"document\" in which all the guidelines are listed. I tried to search online, but I didn't find it. So, has someone idea of it? Even if I live in Italy, I'm very interested in learning more about this :)",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "New cat, need help with adjustment I just got home from the shelter with the sweetest cat- she\u2019s an adult (figured this may be necessary for the info) I\u2019m kind of overwhelmed and worried that I made the wrong decision. She seems really scared and maybe my home isn\u2019t the right place for her. She\u2019s currently in the bathroom that I set aside for her- but I\u2019m also just not sure if that was the right space for the adjusting period.\n\nWhat can I do to make this go smoothly? Any kind words to soothe the nervousness within myself and the cat?",
+      "gold": "accomodation",
+      "predicted": "accomodation"
+    },
+    {
+      "text": "New behaviour So we have a lovely 11 month old kitten who has been with us since she was about 6 months old. She\u2019s very well settled and we recently got a 9 week old kitten. She just hisses at her, baby kitten is separated in her own room with separate everything. We spend equal time with them and fuss them equally, we feed our older girl a treat if she is sitting nicely, watching the baby with no hissing. She hasn\u2019t tried to attack her. Anyway, today she decided for the first time to bring a dead shrew home, she\u2019s been allowed to roam outside for the past 3 months with no problem and no \u2018gifts\u2019 Is the shrew a gift? To us? To the baby kitten? Is it a show of dominance?\n\n",
+      "gold": "behavior",
+      "predicted": "accomodation"
+    }
+  ]
+}
