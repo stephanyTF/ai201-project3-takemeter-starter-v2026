@@ -477,25 +477,37 @@ The trained model seem to perform worse than the baseline for all labels except 
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** Relabeled posts focusing on having more accurate `behavioral` label
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** " Biggest confusion: 3 real `health` posts called `behavior`.
+The other direction: 0 real `behavior` posts called `health`. That's lopsided — the model leans toward `behavior` on this pair.A direction like that usually points at your labelling rather than the
+model. "
 
 ### Run Log — After
 
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.300 | 0.200 | 0.250 | 0.100 |
+| Macro F1 | 0.210 | 0.117 | 0.080 | 0.130 |
+| F1 — `behavior` | 0.353 | 0.300 | 0.000 | 0.353 |
+| F1 — `health` | 0.000 | 0.000 | 0.000 | 0.000 |
+| F1 — `accomodation` | 0.333 | 0.286 | 0.400 | 0.114 |
+| F1 — `training` | 0.364 | 0.000 | 0.000 | 0.364 |
+| F1 — `other` | 0.000 | 0.000 | 0.000 | 0.000 |
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall Accuracy of Post Labeling | .6 | .3 |.2  | .25 | NOT MET
+| 2. `other` label performance may be less than rest of the other labels  | -/+ 30% max | -36% max | -33% max | -40% max | MET
+| 3. Balance in Label Representation  | 20-30% Rep for each label | ~ | ~ | ~ | NOT MET (may need to revise)
+| 4. Consistent Labeling | .7 | .3 | .2 | .25 | NOT MET 
+| 5.  Confident Labeling  | AUC Score >= .7 | ~ | ~ | ~  | NOT MET (may need to revise)
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
-
+Relabelling didn't help since the results in the 2nd run has no difference than the first run. It may not have helped since the only about 7 rows out of 127 were relabeled so perhaps the change was too small to make a signficant change. 
 
 
 ---
@@ -503,13 +515,18 @@ The trained model seem to perform worse than the baseline for all labels except 
 ## What's Still Broken
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
+For below the reason for all of them of why I was unable to implement what I missed was due to time constraint.
 
+1. Overall Accuracy of Post Labeling: Add more rows to the total expected number of postings- 200
+3. Balance in Label Representation: Add more rows to the total expected number of postings- 200
+4. Consistent Labeling: Create a new criterion that's tracked in the results (ie: F1, precision, recall)
+5. Confident Labeling: Create a new criterion that's tracked in the results (ie: F1, precision, recall)
 
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
-
+I meant my labels to capture distinct posts but the model learned there's can be ambiguity in the diverse aposts so improvement to data quantity and labeling can be improved.
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
