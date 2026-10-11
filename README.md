@@ -319,15 +319,15 @@ train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was 
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
-| Measure | Baseline |
-|---|---|
-| Overall accuracy | 0.500 |
-| Macro F1 | 0.389 |
-| F1 — `accomodation` | 0.526 |
-| F1 — `behavior` | 0.000 |
-| F1 — `health` | 0.667 |
-| F1 — `other` | 0.000 |
-| F1 — `training` | 0.750 |
+| Measure | Baseline | Trained | Difference |
+|---|---|---|---|
+| Overall accuracy | 0.500 | 0.300 | -0.200 |
+| Macro F1 | 0.389 | 0.210 | -0.179 |
+| F1 — `accomodation` | 0.526 | 0.333 | -0.193 |
+| F1 — `behavior` | 0.000 | 0.353 | +0.353 |
+| F1 — `health` | 0.667 | 0.000 | -0.667 |
+| F1 — `other` | 0.000 | 0.000 | +0.000 |
+| F1 — `training` | 0.750 | 0.364 | -0.386 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
@@ -338,7 +338,7 @@ train 23  ·  val 5  ·  test 6 (Note due to running out of time, data pool was 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
-
+The trained model seem to perform worse than the baseline for all labels except behavior (excluding `other` label because was 0 for both.)
 
 
 ---
