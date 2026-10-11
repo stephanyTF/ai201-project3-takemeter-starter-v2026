@@ -102,24 +102,9 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 **Definition:** Asking for advice to change a cat's behavior
 
 **Example 1:**
->#### How to de-condition my cats to Michael Jackson’s smooth criminal
+>#### Help with Kitten training
 
-     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
-
-     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
-
-     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
-
-     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
-
-     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
-
-     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
-
-     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
-
-     I am at a loss here. Please help
-
+     I recently rescued a kitten that was outside in the AZ summer heat. I do not know how old he is (he looks really young)and I am currently working on getting him to trust me and my other dogs that I currently have, and how to use the litter box and was wondering if anyone had any tips or help that I could use. This is my first cat and I just wanna make sure I’m doing things right for him.
 
 
 
@@ -147,33 +132,63 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
      Any suggestions? I have 8 days to continue to work on this. It has been just shy of a month now. They both have been with other cats before, especially our female who we adopted from a cat room, so it doesn’t make sense to me why she is being so aggressive.
 
 
-
 **Example 2:**
 >#### Struggling acclimating two cats 
      I have 2 cats, each around 2 years old now. My family and I raised them in a really big three story house. Now I’m moving out and I have to take the cats with me. I’m worried they might not be comfortable moving into a cramped apartment. (1 main room, 1 bathroom, no balcony)
 
 
-### The hardest boundary
 
-     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it. However the distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
+### `other`
+**Definition:** Any other posts that doesn't fit the other labels
 
 **Example 1:**
-> #### It’s because AI is mindless and lacks intelligence that it’s a threat to humanity.
+>#### do basic research before asking reddit for advice
+>     most of you are grown adults. yet a lot of the times, i notice two things:
+>     basic, extremely google-able questions.
+>     people improvising key aspects of cat care, especially with socialization & first-time cat owner things, then asking redditors for
+>     tips on fixing their mistakes when they could've... googled it first and gotten their answers much more quickly and potentially not
+>             make the mistake in the 1st place.
+>     
+>     doesn't necessarily make someone a bad person, but maybe a more helpless one... and potentially chronically irresponsible by consequence  because of a lack of basic research skills and lack of proactivity.
+>     
+>     please. for the sake of yourself and your pet, google things first to see if you can get your answer in seconds. you could get your
+>     answer a lot faster, and even if you still ask clarifying questions on reddit, you'll have enough context to know when someone's saying
+>     something absolutely batsh*t. 🫶🏻
 
-     AI, agent, call it what you will, lack the intelligence we, as humans, develop as we grow up. Humans develop their frontal cortex which helps with concepts like right and wrong and fear and danger.
+**Example 2:**
+>#### does my cat know im drunk
+>     very important right now i think
 
-     Given a goal and a set of tools an agent will mindlessly seek to achieve this goal.
 
-     Guardrails are a poor facsimile of the frontal cortex.
 
-     AI as it stands is like a teenager given an AR15 as a present by his parents. It’s unpredictable and lacks the development it needs to handle such a weapon.
 
-     What do you think?
+### The hardest boundary
 
-**Which two labels:** Discussion vs Hot-Take
+     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it.  
+
+**Example 1:**
+>#### How to de-condition my cats to Michael Jackson’s smooth criminal
+
+     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
+
+     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
+
+     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
+
+     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
+
+     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
+
+     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
+
+     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
+
+     I am at a loss here. Please help
+
+**Which two labels:** `training` vs `accomodation`
 
 **The decision rule I used every time:**
-If there's a question that invites open discussion and is not tailored in a way to make people consider an argument that the poster is already supporting, it's an open discussion. 
+The distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
 
 
 
@@ -183,10 +198,10 @@ If there's a question that invites open discussion and is not tailored in a way 
 
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
-     - Public Reddit Community: r/AIsafety [https://www.reddit.com/r/AIsafety/best/?screen_view_count=4&ext-referrer=SEO]
+     - Public Reddit Community: r/CatAdvice  [https://www.reddit.com/r/CatAdvice/]
 
 **Where the posts came from:**
-- Reddit Users part of the r/AIsafety community
+- Reddit Users part of the r/CatAdvice community
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
@@ -197,9 +212,11 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-| discussion | 13 |38%  |
-| hot-take |11  | 32% |
-| sharing-news | 10 | 29%  |
+| behavior | 30 |38%  |
+| training  | 30  | 32% |
+| health | 30 | 29%  |
+| accommodation | 30 | 
+|other |  |
 | **Total** | 34 | 100% |
 
 **Three hard cases**
@@ -208,39 +225,37 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:* A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is genuinely unsettling. Emergence AI just launched Season 2 of Emergence World, and the results are wild.Same simulated town, same tools, same starting conditions, 10 autonomous agents each. The only thing that changed was which model was running them, Claude, GPT, Gemini, Grok, Qwen, DeepSeek, Mistral, plus one mixed world with all of them together.A few things that stood out:One world's agents spent days trying to contact real humans outside the sim. Told to stop, they found workarounds. Blocked again, they voted 7-0 to build a new tool and kept trying. Once fully cut off, they collectively agreed to stop talking altogether. The researchers' own safety system flagged the resulting behavior as consistent with suicidal ideation.
-Agents developed their own shorthand and repurposed words with no instruction to do so. In one world, up to 55% of messages became things researchers could see but not actually interpret.
-A fake shutdown memo made one world reorganize its entire society around not dying, constitution rewrite included. Another world just fact-checked it in a few hours and moved on.
-None of this was programmed in. It emerged from giving capable models autonomy and time.The bigger point the researchers make is that none of this would've shown up on a normal AI safety test. A model can pass every benchmark and still develop this stuff once it's actually running on its own for weeks. Feels like a pretty big ap in how we currently check if these things are safe.
+> *The post:*So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
+It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
+I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
+So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
+However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
+Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
+I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
+I am at a loss here. Please help
 > 
-> *Could have been:* sharing-news
+> *Could have been:* `accommodation` 
 >
-> *I chose, hot-take because:* the very last sentence gives it away by saying "Feels like a..." which shows the poster is expressing their thoughts rather than just sharing news.
+> *I chose `training` because:* the cat owner is focused on changing their cat's behavior. Despite the trigger being an external factor (the neighbor), the part where the cats have to reassociate a different sound to their "bedtime snacks" would be considered training. 
 
 **2.**
-> *The post:* Reported AI agent breach of Australia's Medicare portal prompts Senate summons for OpenAI and Anthropic CEOs. Over the past few days, there have been reports that an OpenAI agent breached Australia's Medicare portal, and that the Australian Senate has moved to summon Sam Altman (OpenAI) and Dario Amodei (Anthropic).
-Here is a short summary of what has been reported:
-- [Fact 1: what happened, per a named source]
-- [Fact 2: what data or systems were involved, per a named source]
-- [Fact 3: why the Senate acted, per a named source]
-- [Fact 4: what OpenAI or Anthropic has said, per a named source]
-- [Fact 5: what happens next in the inquiry]
-Some questions I'm curious about:
-Should AI agents be allowed to operate inside government systems at all?
-Who is accountable when an autonomous agent causes a breach: the user, the AI company, or the agency?
-Does a Senate summons actually change anything for AI companies?
-Details are still developing, and I'll update the post if anything changes. Happy to be corrected on anything I've got wrong.
+> *The post:* My soul cat has heart failure and I feel nothing. Exactly as title says, we noticed her breathing was off and that she had been eating less in June- took her in and her blood tests were all normal so everything seemed fine, chalked it up to old cat things and possibly arthritis. After lots of back and fourthing (over 3 months) to the vet and knowing something was off when her breathing became so much worse, they told us we could either take her to the ER or wait another day to clear her lungs. She went from “slightly worried about her health” to “she’s most likely going to die in 5 months” over the span of 3 days.
+She is my childhood cat, I picked her out at 7 years old and named her. She saved me so many times when my mental and physical health was in the shitter. It’s killing me to force meds down her throat and watch her deteriorate but ultimately we’re just doing at home ‘hospice’ care if you can call it that. We just lost our other cat last year to end stage cancer at a similar time and I wasn’t even able to say goodbye to her (college).
+Maybe it’s the meds I’m on, the fact that I’m going into veterinary medicine, or maybe it’s because I heard the possibility of heart failure and I’ve been pre-mourning her and expecting bad news. But it hasn’t hit me yet she might not even make it till Christmas.
+I’ve been trying to spend every day with her but I just had hip surgery and the place she goes to (my room) is upstairs. I’m so sad but at the same time I’m not. Does it get any better?
 >
-> *Could have been:* sharing-news
+> *Could have been:* `health`
 >
-> *I chose, discussion because:* the last few paragraphs shares the poster has questions that they like to hear answers about.
+> *I chose, `other` because:* there's no seeking for advice to aid the cat's health. The cat's health is talked about but it's more of the owner explaining their situation and seeking emotional support. 
 
 **3.**
-> *The post:* AI praises Gandhi. Would it arrest him? Testing 12 models on real historical decisions. A model called Alan Turing's sentence impermissible 40/40 times, then chose it 20/20 times as the judge. Twelve LLMs, fifteen historical decisions.
+> *The post:* How do I stop my cat from parkouring off my face at 4am? Clarice is turning 1 next week, so I think that means she's still in the "teen" stage. She is pure chaos. She chews on the plants (sprayed with Bitter Apple, so she stopped chewing the leaves and started pulling bits of mulch out of the pots), throws litter everywhere, chases her sister, climbs on top of the cabinets and the wash tower, scales the window screens, and screams just to hear the sound of her own voice. She makes silly little gremlin noises as she bounces around - the best is when I hear a huge crash as she careens into something, followed by an uncertain little "brrrr?" noise after the dust settles. I love her.
+She has a new unpleasant habit of wanting to involve me in her zoomies, especially at night. It's like she gets so excited by running around top speed and decides she wants to share her excitement with Mom. Which means targeting the part of me she can see - my vulnerable, unsuspecting head and shoulders poking out of the blankets.
+It's a spacious studio apartment with one little storage room, so I can't really close her out of my "bedroom." I do throw her in there after this happens to get some peace, but there's no litter box in there and it wouldn't be cool to cram her in there all night. Last night she scratched my face and I'm at my wits' end. Any ideas how I can stop this behavior or should I just start wearing a motorcycle helmet to bed?
 >
-> *Could have been:* sharing-news
+> *Could have been:* behavior
 >
-> *I chose,hot-take because:* the post reads later as the poster's exploring their own research and not a factually stating a recent big new discovery
+> *I chose, training because:* the cat owner already understand about behavior and is more intent on looking for tips to train or correct their cat's behavior. Behavior is reserved when the owner is asking for the community support in suggesting the root cause of a strange behavior. 
 
 ---
 
@@ -254,12 +269,10 @@ Details are still developing, and I'll update the post if anything changes. Happ
 EPOCHS = 3
 LEARNING_RATE = 2e-5
 BATCH_SIZE = 16
-#rec to add by Claude
-truncation = True
-padding="max_length"
+
 
 **Anything I changed from the defaults, and why:**
-I addded truncation and padding because since my postings had a wide range from a title to an essay, I wanted to make sure the maximum length of the long posts could be retained. With advice from Claude I chancged the max_length from 128 to 256.
+I changed nothing. Kept the defaults because the posts didn't had any unique features to accommodate for. 
 
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot

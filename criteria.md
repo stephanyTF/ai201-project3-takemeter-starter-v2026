@@ -64,14 +64,14 @@ whether you hit them:
 
 ---
 
-## 2. Sharing News label performance may be less than hot-takes label
+## 2. `other` label performance may be less than rest of the other labels
 
 <!-- Your criterion. -->
     The accuracy of sharing news label may be max 30% less accurate than other labels
 
 
 **Why this target:**
-  There's not a lot of non-partial posts on the reddit. Since it's a community there tends to be more opinionated posts that wants to spark discussion.
+  `other` represents a minority of posts that could have diverse content and don't fit in the other 4 labels.
 
 
 ---
@@ -91,11 +91,11 @@ Ensures there's a fair representation for each label so the model is not biased 
 ## 4. Consistent Labeling
 
 <!-- Your criterion. -->
-  If someone else labeled the same 20 held-out posts, they should agree with my original label at least 80% of the time.
+  If someone else labeled the same 20 held-out posts, they should agree with my original label at least 70% of the time.
 
 
 **Why this target:**
-My labels (hot-takes, sharing news, open-discussion) rely on some judgment calls. For instance, a slightly charged discussion can read like a hot take when it actually opens up for mixed discussion. 80% raw agreement should allow for that ambiguity. 
+My labels  rely on some judgment calls. For instance, a behavior could be read as training since those two tend to coincide. 70% raw agreement should allow for that ambiguity. 
 
 
 
