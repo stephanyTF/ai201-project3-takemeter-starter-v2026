@@ -429,7 +429,7 @@ The trained model seem to perform worse than the baseline for all labels except 
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 26 / 30 = 87%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -451,28 +451,56 @@ The trained model seem to perform worse than the baseline for all labels except 
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
+
+
+
+
 **1.**
-> *The post:*
+> *The post:* "Pulled the splits from the last five editions. The winning time has moved by 40 seconds total in ten years, but the 100th-place time is four minutes faster. The depth changed, the front didn't."
 >
-> *Staff said / I said:*
+> *Staff said `analysis` / I said: `hot_take`*
+>
+> *My call, and why:*
+The confident ending made me think it was a hot-take and the numbers were just being used to flash it off as analysis. However I agree it's analysis
+>
+> *Which pile:* a
+
+**2.**
+> *The post:* "The club championship scoring changed in 2019 from top-6 to top-10. Since then our B team has finished above the A team twice. That's not depth improving, it's the scoring rewarding turnout."
+>
+> *Staff said `analysis` / I said: `hot_take`*
+>
+> *My call, and why:* The confident ending and the statistical info in the post doesn't seem the correlate well with the claim made (I'm not clear with what the claim even is, is it to show that Team B peforms better than A?). Even if the top pool changed from 2019, I'm not sure what the current date the poster is in and how many times both Team A and B has competeted to see if winning two times is significant. Example if Team B finished above 2 out 5 times, it's not that impressive. Hence that's why I believe it's hot-take because the evidence doesn't seem strong and the confident ending to make it lean that way.
+>
+>
+> *Which pile:* c
+
+
+
+**3.**
+> *The post:* "Carbon plates aren't the whole story. My times dropped 2% in the shoes and another 2% the following year in the same pair, when the only thing that changed was going from 35 to 50 miles a week."
+>
+> *Staff said `analysis` / I said: `hot_take`*
 >
 > *My call, and why:*
 >
 > *Which pile:*
 
-**2.**
-> *The post:*
+
+**What the pattern in my disagreements tells me:**
+
+
+
+**4.**
+> *The post:*  "Three of us ran the same session on the same day, different shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes do nothing, but whatever they do was smaller than the noise between three people."
 >
-> *Staff said / I said:*
+> *Staff said `analysis` / I said: `hot_take`*
 >
 > *My call, and why:*
 >
 > *Which pile:*
 
 **What the pattern in my disagreements tells me:**
-
-
-
 ---
 
 ## The Improvement
