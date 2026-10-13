@@ -461,9 +461,9 @@ The trained model seem to perform worse than the baseline for all labels except 
 > *Staff said `analysis` / I said: `hot_take`*
 >
 > *My call, and why:*
-The confident ending made me think it was a hot-take and the numbers were just being used to flash it off as analysis. However I agree it's analysis
+The confident ending made me think it was a hot-take and the numbers were just being used to flash it off as analysis. However I agree it's analysis and I was applying the rule loosely. 
 >
-> *Which pile:* a
+> *Which pile:* a)  the rule covered it
 
 **2.**
 > *The post:* "The club championship scoring changed in 2019 from top-6 to top-10. Since then our B team has finished above the A team twice. That's not depth improving, it's the scoring rewarding turnout."
@@ -473,7 +473,7 @@ The confident ending made me think it was a hot-take and the numbers were just b
 > *My call, and why:* The confident ending and the statistical info in the post doesn't seem the correlate well with the claim made (I'm not clear with what the claim even is, is it to show that Team B peforms better than A?). Even if the top pool changed from 2019, I'm not sure what the current date the poster is in and how many times both Team A and B has competeted to see if winning two times is significant. Example if Team B finished above 2 out 5 times, it's not that impressive. Hence that's why I believe it's hot-take because the evidence doesn't seem strong and the confident ending to make it lean that way.
 >
 >
-> *Which pile:* c
+> *Which pile:* c) the rule is ambiguous here and my reading is defensible.
 
 
 
@@ -482,12 +482,10 @@ The confident ending made me think it was a hot-take and the numbers were just b
 >
 > *Staff said `analysis` / I said: `hot_take`*
 >
-> *My call, and why:*
+> *My call, and why:* I may have been judging the quality of the analysis since there's not another comparable example in another pair of shoes to show that carbon plates are not a huge factor. However the first sentence doesn't argue out right that carbon plates doesn't affect their running, only admits it's not the whole story so I would relabel this as `analysis`.
 >
-> *Which pile:*
+> *Which pile:* a) the rule covered it
 
-
-**What the pattern in my disagreements tells me:**
 
 
 
@@ -496,11 +494,14 @@ The confident ending made me think it was a hot-take and the numbers were just b
 >
 > *Staff said `analysis` / I said: `hot_take`*
 >
-> *My call, and why:*
+> *My call, and why:* I'm not sure what the poster mean by "the noise" between three people. Since it's part of their claim and there was no checkable evidence at all for this, I would still consider this a `hot_take`
 >
-> *Which pile:*
+> *Which pile:* a)  the rule covered it
 
 **What the pattern in my disagreements tells me:**
+Some of the analysis labeled posts can be mistaken for hot-takes because of the way the post is written, it can make it sound that the fact inserted are used loosely. 
+
+
 ---
 
 ## The Improvement
