@@ -56,7 +56,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 ### `health`
 
-**Definition:** The post inquires about a cat's health which may include topics like vet visits or taking care of aging, sick, or injured cats (e.i. heart conditions, eyesight, broken bone)
+**Definition:** The post inquires about a cat's health which may include topics like vet visits or medical symptoms (heart conditions, eyesight, broken bone, sickness)
 
 **Example 1:**
 > #### regular vet appt
@@ -70,31 +70,6 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
      At the beginning of the month, one of my family's cat's broke her paw. She had a botched landing from a jump. We took her to the emergency vet and got her patched up, but unfortunately she has managed twice now to pull her paw out of the cast.
 
      She's going back to the emergency vet to get another one put on, but at this point I don't know what to do if she's messed it up again, or if it won't heal.
-    
-
-### `behavior`
-
-**Definition:** Asking for help when it comes to understanding or finding the reason for a cat's behavior like why a cat is more active during certain times or suddenly acting in a different way. Most post usually have the word 'behavior' in them. 
-
-**Example 1:**
->#### I feel so dumb for not realizing my cat just wanted to be included on my desk
-    My six year old cat has been pretty vocal most of her life this far, but recently she’s been very persistent to keep my attention. For a few weeks I figured this was due to her recent issues with a prior UTI and her discomfort with a urinary crystal (scheduled to be removed next week), so I got her a low dose prescription for gabapentin. This calmed her down a tad, but it didn’t stop her from sitting next to my chair and nipping me for attention.
-
-     Today she was meowing anytime I looked away from her after I let her into the office, so I decided to look up specifically why cats might get more demanding when you sit to work at your desk. Well, turns out this is pretty common as most of you probably know. And the most common solution I found was to make a space on the desk for the cat to feel “included.” So I shuffled some things around to fit her bed next to my work equipment on the desk.
-
-     And wouldn’t you know it, this calmed her down immediately. No more yelling in my ear. No more nips for attention. She made herself at home and continued observing me as I got to work this morning.
-
-     I’ve grown up with cats all my life. I’m 35, and I feel so silly for not even considering this prior to now. I’m always learning something new with these guys!
-
-     Edit - I’m loving all your stories and pictures of your own desk setups for the cats! It’s so fun to see how everyone has accommodated their own little supurrvisors. Thank you for sharing and teaching me a new way to keep my cats happy!
-
-
-
-**Example 2:**
-> #### Cat only wants to drink from faucets
-
-     My female cat only wants to drink from faucets. She is constantly jumping into the tub or on the bathroom sink and rubbing her face on the faucet while meowing. We have gotten her a variety of fountain type bowls, even one with an actual mini sink faucet, and she just knocks the tops off of them. Our male cat has no issue drinking out of any of the fancy fountains we have bought or just a regular bowl and we change the water and filters regularly. I’m worried she is depriving herself of adequate water, but don’t want to always give in and turn the faucet on for her. She is a rescue that we have had for almost 2 years, she was surrendered at age 3 so I’m not sure what her previous owner was doing. What do I do?
-
     
 
 
@@ -120,8 +95,9 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
      Any advice on training (or general cat advice) would be greatly appreciated 😭😭
 
 
-### `accomodation`
-**Definition:** Considering emotional and physical needs of cat when external factors come into conflict such as (presence of other people, animals, beings, change in owner's lifestyle that may disrupt the cat's normal living conditions)
+### `acclimation`
+**Definition:**  Focus on owners introducing new cats to home, getting used to resident cats, or a new living location.
+
 
 **Example 1:**
 >#### Struggling acclimating two cats 
@@ -135,29 +111,6 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 **Example 2:**
 >#### Struggling acclimating two cats 
      I have 2 cats, each around 2 years old now. My family and I raised them in a really big three story house. Now I’m moving out and I have to take the cats with me. I’m worried they might not be comfortable moving into a cramped apartment. (1 main room, 1 bathroom, no balcony)
-
-
-
-### `other`
-**Definition:** Any other posts that doesn't fit the other labels
-
-**Example 1:**
->#### do basic research before asking reddit for advice
->     most of you are grown adults. yet a lot of the times, i notice two things:
->     basic, extremely google-able questions.
->     people improvising key aspects of cat care, especially with socialization & first-time cat owner things, then asking redditors for
->     tips on fixing their mistakes when they could've... googled it first and gotten their answers much more quickly and potentially not
->             make the mistake in the 1st place.
->     
->     doesn't necessarily make someone a bad person, but maybe a more helpless one... and potentially chronically irresponsible by consequence  because of a lack of basic research skills and lack of proactivity.
->     
->     please. for the sake of yourself and your pet, google things first to see if you can get your answer in seconds. you could get your
->     answer a lot faster, and even if you still ask clarifying questions on reddit, you'll have enough context to know when someone's saying
->     something absolutely batsh*t. 🫶🏻
-
-**Example 2:**
->#### does my cat know im drunk
->     very important right now i think
 
 
 
