@@ -252,24 +252,22 @@ train 88  ·  val 19  ·  test 20 (Note due to running out of time, data pool wa
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy | 0.500 | 0.300 | -0.200 |
-| Macro F1 | 0.389 | 0.210 | -0.179 |
-| F1 — `accomodation` | 0.526 | 0.333 | -0.193 |
-| F1 — `behavior` | 0.000 | 0.353 | +0.353 |
-| F1 — `health` | 0.667 | 0.000 | -0.667 |
-| F1 — `other` | 0.000 | 0.000 | +0.000 |
-| F1 — `training` | 0.750 | 0.364 | -0.386 |
+| Overall accuracy | 0.667 | 0.375 | -0.292 |
+| Macro F1 | 0.546 | 0.246 | -0.299 |
+| F1 — `acclimation` | 0.000 | 0.516 | +0.516 |
+| F1 — `health` | 0.941 | 0.222 | -0.719 |
+| F1 — `training` | 0.696 | 0.000 | -0.696 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
-     I think my trained model will not beat it because there’s too many categories and the size of the data is only 127 rows (still a little far from the 200 expected labels)
+     I think my trained model will not beat it because despite less categories than before and the size of the data is now 150 rows, there's still variation in each post despite their labels so the model may not be able to pick up a strong pattern.
 
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
-The trained model seem to perform worse than the baseline for all labels except behavior (excluding `other` label because was 0 for both.)
+The trained model seem to perform worse than the acclimation for all labels. This may mean that acclimation is poorly worded for the baseline. 
 
 
 ---
@@ -281,20 +279,18 @@ The trained model seem to perform worse than the baseline for all labels except 
 
 | Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
 |---|---|---|---|---|
-| Overall accuracy | 0.300 | 0.200 | 0.250 | 0.100 |
-| Macro F1 | 0.210 | 0.117 | 0.080 | 0.130 |
-| F1 — `behavior` | 0.353 | 0.300 | 0.000 | 0.353 |
-| F1 — `health` | 0.000 | 0.000 | 0.000 | 0.000 |
-| F1 — `accomodation` | 0.333 | 0.286 | 0.400 | 0.114 |
-| F1 — `training` | 0.364 | 0.000 | 0.000 | 0.364 |
-| F1 — `other` | 0.000 | 0.000 | 0.000 | 0.000 |
+| Overall accuracy | 0.375 | 0.417 | 0.417 | 0.042 |
+| Macro F1 | 0.246 | 0.311 | 0.311 | 0.065 |
+| F1 — `health` | 0.222 | 0.400 | 0.400 | 0.178 |
+| F1 — `acclimation` | 0.516 | 0.533 | 0.533 | 0.017 |
+| F1 — `training` | 0.000 | 0.000 | 0.000 | 0.000 |
 
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1. Overall Accuracy of Post Labeling | .6 | .3 |.2  | .25 | NOT MET
-| 2. `other` label performance may be less than rest of the other labels  | -/+ 30% max | -36% max | -33% max | -40% max | MET
-| 3. Balance in Label Representation  | 20-30% Rep for each label | ~ | ~ | ~ | NOT MET (may need to revise)
+| 1. Overall Accuracy of Post Labeling |.6 |  .375 | .417 |.417  |  NOT MET
+| 2.  No label performance may be less than rest of the other labels | -/+ .2 max | -/+ .042 max | -/+ .042 max | -/+ .042 max | MET
+| 3. Balance in Label Representation  | 20-30% Rep for each label | 32 | 32 | 35 | MET 
 | 4. Consistent Labeling | .7 | .3 | .2 | .25 | NOT MET 
 | 5.  Confident Labeling  | AUC Score >= .7 | ~ | ~ | ~  | NOT MET (may need to revise)
 
@@ -303,19 +299,17 @@ The trained model seem to perform worse than the baseline for all labels except 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
- true \ predicted | behavior | health | accomodation | training | other |
-|---|---|---|---|---|---|
-| **behavior** | 3 | 0 | 0 | 2 | 0 |
-| **health** | 3 | 0 | 0 | 1 | 0 |
-| **accomodation** | 3 | 0 | 1 | 1 | 0 |
-| **training** | 2 | 0 | 0 | 2 | 0 |
-| **other** | 1 | 0 | 0 | 1 | 0 |
+| true \ predicted | health | acclimation | training |
+|---|---|---|---|
+| **health** | 1 | 7 | 0 |
+| **acclimation** | 0 | 8 | 0 |
+| **training** | 0 | 8 | 0 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
-     3 real `health` posts called `behavior` but 0 `behavior` posts called `health`
+     7 real `health` and 8 real training posts were misclassifed as  `acclimation`
 
 
 ---
@@ -328,7 +322,7 @@ The trained model seem to perform worse than the baseline for all labels except 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
 | 1 | Overall Accuracy of Post Labeling | .6 | NOT MET | Based it off the accuracy from the Run Log |
-| 2 | `other` label performance may be less than rest of the other labels | -/+ 30% max | MET | Based from Run Log |
+| 2 |  No label performance may be less than rest of the other labels | -/+ 30% max | MET | Based from Run Log |
 | 3 | Balance in Label Representation |20-30% Rep for each label  | ~ | Not able to assess from run log nor results |
 | 4 | Consistent Labeling | .7 | NOT MET  | Based on accuracy scores (may need revision to differentiate from Accuracy Criteria)  |
 | 5 | Confident Labeling | AUC score of at least .7 | NOT MET |  Immeasurable since no AUC is given in the tables or output   |
@@ -345,7 +339,7 @@ The trained model seem to perform worse than the baseline for all labels except 
      section is graded on whether you used it that way. -->
 
 1. Overall Accuracy of Post Labeling: Not clearly defined labels and possibly not enough data (127/200)
-3. Balance in Label Representation: Critierion couldn't be measured based from run log and results
+3. Balance in Label Representation: Critierion was measured based from Unit 5 in examining data structure.-
 4. Consistent Labeling: Critierion couldn't be measured based from run log and results
 5. Confident Labeling: Critierion couldn't be measured based from run log and results
 

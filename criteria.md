@@ -64,14 +64,14 @@ whether you hit them:
 
 ---
 
-## 2. `other` label performance may be less than rest of the other labels
+## 2. No label performance may be less than rest of the other labels
 
 <!-- Your criterion. -->
-    The accuracy of sharing news label may be max 30% less accurate than other labels
+    The accuracy of each label should be roughly the same with about .2 spread of each other since they should have a similar amount of representative data
 
 
 **Why this target:**
-  `other` represents a minority of posts that could have diverse content and don't fit in the other 4 labels.
+ .2 spread allows for some variation as they're different topics and some topics might be easier to spot than others by the mode.
 
 
 ---
