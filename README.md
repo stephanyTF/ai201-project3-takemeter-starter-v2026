@@ -151,8 +151,7 @@ Say so plainly — the disclosure is required, not penalised. -->
 |---|---|---|
 | training  | 30  | 24% |
 | health | 25 | 20%  |
-| accommodation | 31 |  24% | 
-|other | 11 | 9% | 
+| accommodation | 31 |  24% |  
 | **Total** | 127 | 100% |
 
 **Three hard cases**
