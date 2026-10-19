@@ -117,31 +117,15 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 ### The hardest boundary
 
-     - When there's a mixture of different elements that could blur between two labels like  `training` and `accomodation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it.  
+     - When there's a mixture of different elements that could blur between two labels like  `training` and `acclimation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it to adjust. 
 
 **Example 1:**
->#### How to de-condition my cats to Michael Jackson’s smooth criminal
+>
 
-     So for past 4 years I have been feeding my two cats their bedtime snacks at exactly 12am and to keep myself reminded I set up an alarm for it.
-
-     It used to be the default iphone ringtone but soon after I realized they got conditioned to it and would get overly excited during the day when I get a phone call.
-
-     I then followed some guides to decondition them. I desensitized them to the ringtone by playing it a lot.
-
-     So like 1 year ago I changed the sound to play Michael Jackson’s smooth criminal thinking it’s fine because even if they get conditioned I don’t listen to it much.
-
-     However my neighbors recently moved in and this guy blasts smooth criminal a lot and quite loud. I already talked to him about the volume and he has since turned down the volume to the point I can’t hear it but my cats still can. So they would get randomly triggered and I would have no idea and after checking with my neighbors it’s definitely him.
-
-     Now I cannot really tell him to turn it down even lower because that would exceeds courtesy and that song is one of his favorites.
-
-     I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
-
-     I am at a loss here. Please help
-
-**Which two labels:** `training` vs `accomodation`
+**Which two labels:** `training` vs `acclimation`
 
 **The decision rule I used every time:**
-The distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors (ie. owner, env) -> accomodation)
+The distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors  (ie. owner, env adjustments) -> acclimation)
 
 
 
@@ -165,7 +149,6 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-| behavior | 30 |24%  |
 | training  | 30  | 24% |
 | health | 25 | 20%  |
 | accommodation | 31 |  24% | 
