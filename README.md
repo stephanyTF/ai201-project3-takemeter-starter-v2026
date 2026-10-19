@@ -96,7 +96,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 
 ### `acclimation`
-**Definition:**  Focus on owners introducing new cats to home, getting used to resident cats, or a new living location.
+**Definition:**  Focus on owners introducing new cats to home, getting used to resident cats or other cats, or a new living location.
 
 
 **Example 1:**
@@ -120,7 +120,8 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
      - When there's a mixture of different elements that could blur between two labels like  `training` and `acclimation`. There are many different scenarios where making a cat comfortable in its new environment could involve training it to adjust. 
 
 **Example 1:**
->
+> Advice on acclimating two cats 
+     Me and my boyfriend are about to move in together and we both have cats. I have a 10 year old girl and he has a 2 year old boy. His cat got in a street fight before coming to live with him. We are worried that he is going to try to fight her because he likes to growl at cats outside. Any advice on how to make sure they can live peacefully together? Neither of us want to give up our babies
 
 **Which two labels:** `training` vs `acclimation`
 
@@ -149,10 +150,10 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-| training  | 30  | 24% |
-| health | 25 | 20%  |
-| accommodation | 31 |  24% |  
-| **Total** | 127 | 100% |
+| training  | 50  | 32% |
+| health | 50 | 32%  |
+| acclimation | 55 |  35% |  
+| **Total** | 155 | 100% |
 
 **Three hard cases**
 
@@ -169,28 +170,23 @@ Now I cannot really tell him to turn it down even lower because that would excee
 I tried to de-condition with the desensitization trick but somehow it doesn’t work with this song. If I play smooth criminal all day they are excited all day and constantly yelling for treats.
 I am at a loss here. Please help
 > 
-> *Could have been:* `accommodation` 
+> *Could have been:* `acclimation` 
 >
 > *I chose `training` because:* the cat owner is focused on changing their cat's behavior. Despite the trigger being an external factor (the neighbor), the part where the cats have to reassociate a different sound to their "bedtime snacks" would be considered training. 
 
 **2.**
-> *The post:* My soul cat has heart failure and I feel nothing. Exactly as title says, we noticed her breathing was off and that she had been eating less in June- took her in and her blood tests were all normal so everything seemed fine, chalked it up to old cat things and possibly arthritis. After lots of back and fourthing (over 3 months) to the vet and knowing something was off when her breathing became so much worse, they told us we could either take her to the ER or wait another day to clear her lungs. She went from “slightly worried about her health” to “she’s most likely going to die in 5 months” over the span of 3 days.
-She is my childhood cat, I picked her out at 7 years old and named her. She saved me so many times when my mental and physical health was in the shitter. It’s killing me to force meds down her throat and watch her deteriorate but ultimately we’re just doing at home ‘hospice’ care if you can call it that. We just lost our other cat last year to end stage cancer at a similar time and I wasn’t even able to say goodbye to her (college).
-Maybe it’s the meds I’m on, the fact that I’m going into veterinary medicine, or maybe it’s because I heard the possibility of heart failure and I’ve been pre-mourning her and expecting bad news. But it hasn’t hit me yet she might not even make it till Christmas.
-I’ve been trying to spend every day with her but I just had hip surgery and the place she goes to (my room) is upstairs. I’m so sad but at the same time I’m not. Does it get any better?
+> *The post:* Me and my boyfriend are about to move in together and we both have cats. I have a 10 year old girl and he has a 2 year old boy. His cat got in a street fight before coming to live with him. We are worried that he is going to try to fight her because he likes to growl at cats outside. Any advice on how to make sure they can live peacefully together? Neither of us want to give up our babies
 >
-> *Could have been:* `health`
+> *Could have been:* `training`
 >
-> *I chose, `other` because:* there's no seeking for advice to aid the cat's health. The cat's health is talked about but it's more of the owner explaining their situation and seeking emotional support. 
+> *I chose, `acclimation` because:* these are the cats first time living together and that's still involved in creating a space on the owner ends where they're able to gradually set up a peaceful interaction between the cats
 
 **3.**
-> *The post:* How do I stop my cat from parkouring off my face at 4am? Clarice is turning 1 next week, so I think that means she's still in the "teen" stage. She is pure chaos. She chews on the plants (sprayed with Bitter Apple, so she stopped chewing the leaves and started pulling bits of mulch out of the pots), throws litter everywhere, chases her sister, climbs on top of the cabinets and the wash tower, scales the window screens, and screams just to hear the sound of her own voice. She makes silly little gremlin noises as she bounces around - the best is when I hear a huge crash as she careens into something, followed by an uncertain little "brrrr?" noise after the dust settles. I love her.
-She has a new unpleasant habit of wanting to involve me in her zoomies, especially at night. It's like she gets so excited by running around top speed and decides she wants to share her excitement with Mom. Which means targeting the part of me she can see - my vulnerable, unsuspecting head and shoulders poking out of the blankets.
-It's a spacious studio apartment with one little storage room, so I can't really close her out of my "bedroom." I do throw her in there after this happens to get some peace, but there's no litter box in there and it wouldn't be cool to cram her in there all night. Last night she scratched my face and I'm at my wits' end. Any ideas how I can stop this behavior or should I just start wearing a motorcycle helmet to bed?
+> *The post:* Adult stray sick cat I have a neighborhood stray that I have been feeding on occasion. ... So to summarize what do i do to get this cat to be more comfortable with me (i intend to adopt or at the very least foster) how do I prevent my current two cats from getting sick cat litter training? what to do for sickness between now and monday need info on anything i might be not considering that is required.
 >
-> *Could have been:* behavior
+> *Could have been:* "training"
 >
-> *I chose, training because:* the cat owner already understand about behavior and is more intent on looking for tips to train or correct their cat's behavior. Behavior is reserved when the owner is asking for the community support in suggesting the root cause of a strange behavior. 
+> *I chose, "health" because:* eventhough the world training was mentioned, it's not the focus. The focus is on how to treat a sick cat while the "training" is a small afterthought.
 
 ---
 
