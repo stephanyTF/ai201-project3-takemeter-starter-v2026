@@ -74,7 +74,7 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 
 
 ### `training`
-**Definition:** Asking for advice to change a cat's behavior towards a certain goal. This may involve repeated training and posts usually have the word "train/ training" in them. 
+**Definition:** The poster wants to teach or change a specific, repeatable behavior through deliberate practice, rewards, or correction. The focus is the behavior, not the cat's comfort with a new situation. Some examples may include potty training, being harnassed on a leash for walks, or using a clicker. 
 
 **Example 1:**
 >#### Help with Kitten training
@@ -126,7 +126,9 @@ The classifier sorts posts from a reddit community on cat advice  (https://www.r
 **Which two labels:** `training` vs `acclimation`
 
 **The decision rule I used every time:**
-The distinct line is who the solution involves (changing the cat's behavior -> training while changing external factors  (ie. owner, env adjustments) -> acclimation)
+If the cat is adjusting to a change (new home, new pet, new routine) and the poster wants it to feel comfortable → acclimation.
+If the poster wants a specific behavior from the cat, even in a new setting → training.
+If both apply, label by the poster's main question: "How do I make them comfortable?" vs. "How do I get them to do or stop X?"
 
 
 
@@ -431,11 +433,14 @@ Some of the analysis labeled posts can be mistaken for hot-takes because of the 
 
 ## The Improvement
 
-**What I changed:** Relabeled posts focusing on having more accurate `behavioral` label
+**What I changed:** 
 
-**Which diagnosis pointed at it:** " Biggest confusion: 3 real `health` posts called `behavior`.
-The other direction: 0 real `behavior` posts called `health`. That's lopsided — the model leans toward `behavior` on this pair.A direction like that usually points at your labelling rather than the
-model. "
+**Which diagnosis pointed at it:** Biggest confusion: 8 real `training` posts called `acclimation`.
+The other direction: 0 real `acclimation` posts called `training`.
+
+That's lopsided — the model leans toward `acclimation` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
 
 ### Run Log — After
 
