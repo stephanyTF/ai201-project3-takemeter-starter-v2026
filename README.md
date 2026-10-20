@@ -252,13 +252,13 @@ train 88  ·  val 19  ·  test 20 (Note due to running out of time, data pool wa
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
-| Measure | Baseline | Trained | Difference |
-|---|---|---|---|
-| Overall accuracy | 0.667 | 0.375 | -0.292 |
-| Macro F1 | 0.546 | 0.246 | -0.299 |
-| F1 — `acclimation` | 0.000 | 0.516 | +0.516 |
-| F1 — `health` | 0.941 | 0.222 | -0.719 |
-| F1 — `training` | 0.696 | 0.000 | -0.696 |
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.375 | 0.417 | 0.417 | 0.042 |
+| Macro F1 | 0.246 | 0.311 | 0.311 | 0.065 |
+| F1 — `health` | 0.222 | 0.400 | 0.400 | 0.178 |
+| F1 — `acclimation` | 0.516 | 0.533 | 0.533 | 0.017 |
+| F1 — `training` | 0.000 | 0.000 | 0.000 | 0.000 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
@@ -278,6 +278,7 @@ The trained model seem to perform worse than the acclimation for all labels. Thi
 
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
+
 
 | Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
 |---|---|---|---|---|
@@ -312,7 +313,6 @@ The trained model seem to perform worse than the acclimation for all labels. Thi
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
      7 real `health` and 8 real training posts were misclassifed as  `acclimation`
-
 
 ---
 
@@ -446,27 +446,25 @@ model. Your agreement report is the thing that can tell you which.
 
 | Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
 |---|---|---|---|---|
-| Overall accuracy | 0.300 | 0.200 | 0.250 | 0.100 |
-| Macro F1 | 0.210 | 0.117 | 0.080 | 0.130 |
-| F1 — `behavior` | 0.353 | 0.300 | 0.000 | 0.353 |
-| F1 — `health` | 0.000 | 0.000 | 0.000 | 0.000 |
-| F1 — `accomodation` | 0.333 | 0.286 | 0.400 | 0.114 |
-| F1 — `training` | 0.364 | 0.000 | 0.000 | 0.364 |
-| F1 — `other` | 0.000 | 0.000 | 0.000 | 0.000 |
+| Overall accuracy | 0.704 | 0.593 | 0.630 | 0.111 |
+| Macro F1 | 0.703 | 0.588 | 0.586 | 0.117 |
+| F1 — `health` | 0.714 | 0.615 | 0.667 | 0.099 |
+| F1 — `acclimation` | 0.667 | 0.615 | 0.727 | 0.112 |
+| F1 — `training` | 0.727 | 0.533 | 0.364 | 0.364 |
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1. Overall Accuracy of Post Labeling | .6 | .3 |.2  | .25 | NOT MET
-| 2. `other` label performance may be less than rest of the other labels  | -/+ 30% max | -36% max | -33% max | -40% max | MET
-| 3. Balance in Label Representation  | 20-30% Rep for each label | ~ | ~ | ~ | NOT MET (may need to revise)
-| 4. Consistent Labeling | .7 | .3 | .2 | .25 | NOT MET 
+| 1. Overall Accuracy of Post Labeling | .6 | .7 |.6  | .6 | MET
+| 2. No label performance may be less than rest of the other labels | .2-.3 MAX | .06 max | .082 max | .363 max  | NOT MET
+| 3. Balance in Label Representation  | 20-30% Rep for each label | .3 | .3 | .3 | MET
+| 4. Consistent Labeling | .7 | .7 | .6 | .7 | NOT MET 
 | 5.  Confident Labeling  | AUC Score >= .7 | ~ | ~ | ~  | NOT MET (may need to revise)
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
-Relabelling didn't help since the results in the 2nd run has no difference than the first run. It may not have helped since the only about 7 rows out of 127 were relabeled so perhaps the change was too small to make a signficant change. 
+Refining definitions, relabeling, and adding more postings helped since the results in the 2nd run had a major differenc than the first run. Despite the small change (4) rows were relabelled and the total number of postings from 155 were increased to 174 were relabeled so perhaps the change was significant enough to make a distinctive change. 
 
 
 ---
