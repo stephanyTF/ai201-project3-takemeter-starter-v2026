@@ -1,0 +1,169 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 27,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": false,
+  "scores": {
+    "n": 27,
+    "accuracy": 0.8888888888888888,
+    "f1_macro": 0.8907235408783397,
+    "per_label": {
+      "acclimation": {
+        "precision": 0.8,
+        "recall": 0.8888888888888888,
+        "f1": 0.8421052631578948,
+        "support": 9
+      },
+      "health": {
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "support": 9
+      },
+      "training": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1": 0.8888888888888888,
+        "support": 9
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Cat Health Yesterday i adopted a cat from the shelter. They said he was a stray and estimated his age to be around 4 years old. He was castrated after arriving at the shelter.\r\n\r\nHe is very friendly from the beginning and had no problem using the litterbox, but i have some doubts about his health.\r\n\r\n* After pooping his butt smells quite bad and some liquid poop stayed on his butt.\r\n* he sheds A LOT of hair, even after lots of combing it does not become less.\r\nHe leaves tiny puddles of pee in random places.\r\n\r\nI also believe he has a little trouble cleaning himself, i see him not do it very often as i see other cats do it.\r\n\r\nWhat do i do? A visit to the vet is definitely a must, but if anyone has experience with these things i would love to hear about it.",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Advice needed for harness training. My mom recently bought our cat a harness to--her idea not mine-- get our cat in her carrier easier. Also it wouldn't be bad to have her harness trained. Anyways, we put the harness on her today and she was so surprisingly cooperative. She laid there still for a while and the started doing that walk cats do with harnesses. She eventually went into hiding (which we expected). After a while we just saw her try to rip the couch she was hiding under apart. Which is very out of character for her. She has scratching pads everywhere around the house and one that very conveniently in front of the couch for her. She stopped as soon as we saw her and told her to stop. She ran downstairs and then came back up and went back to hiding. We tried to redirect the energy by playing with her with her wand toy. After a while we heard her hiss at it so we stopped. Her vet appointment is this week and even though i don't agree and don't think that the harness will make it easier to put her in the carrier, my mom is really set on it. Do i take the harness of and try to get her used to it more in short session and then put it on her the day of her appointment? I would hate to do that because i feel it would be hard to put it back on but I feel that she's very stressed out and uncomfortable already. Or should I just leave it on and \"let her get used to it\" but i feel like that would set us back more...",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "I feel guilty about medicating my cat. Hello all, I've have a male and female cat currently they are separated until my 21st but for my male I had him on magestrol for a bit due to territorial aggression and bullying of the younger female, as well as to help him not tear up my furniture and constantly break my stuff (I do play with him I try to get two sessions a day since I'm single and work all day) he's since been off magestrol and is driving me up the wall and am considering kitty prozac. I feel bad because it feels like I'm giving him medicine to make him not be himself, am I doing wrong by him? Just to clarify my situation if something is on a table it goes to the floor constantly. If your not looking at him he's tearing up the couch. If you do anything that doesn't involve him he's biting your feet because how dare I not pay attention to him lol, it makes me feel like maybe he has anxiety and truly needs the mess but idk.",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "cat sick. feline panleukopenia virus 5 months old Hi everyone, I am currently in a difficult situation with my cat, she is currentl hospitilized bec she developed feline panleukopenia virus, viral.\r\nwhat brings me to the question: are prayers for animals accepted? and if yes, how should I ask Allah for the well being of my cat?\r\nI'm extremely sad right now because I am just not ready to lose her but I also don't know if there is any way to ask for her health, so if you know how it works, please let me know.\r\nshe stopped eating on thirday, friday she started vomiting. saturday she started peeokg blood god on iv treatment still not eatong anything. sunday dirrhea stooped not eayijg just fed her cerelac with a syringe and water mknday she had muscle tremors and vet said nervous damage starting please pray she pulls throu her name is mimi.\r\n\r\n\r\nshes still not eatinh",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Trouble Acclimating my Two Cats (it's been months) Hello!\r\n\r\nSo I adopted my kitten back in July of last year. I tried following the Jackson Galaxy method. Things were going pretty well, actually. Sure we had rough patches, but they were actually playing together! However, one time the younger of the two pounced on the other and ever since then things have gone back to 0.\r\n\r\nI tried giving them a month apart and restarting, but the older cat no matter what hisses at the younger one the moment she sees her and runs off and hides.\r\n\r\nThe younger one doesn't try to immediately play anymore, but it still seems as though the older one hasn't forgotten about what the younger one did. There have been good times after then, but then moments later it all falls apart once more and I'm back at separating them entirely.\r\n\r\nI've tried calming sprays and calming treats, but those seemingly haven't helped. I've heard mixed reviews on Feliway and Jackson Galaxy's calming options, so I am unsure if they will help out anymore than the methods I have already tried.\r\n\r\nIt's really upsetting because they're both such sweet girls. It's just upsetting how when we have a really good moment, everything falls apart suddenly and we're back to square one.",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Should I stay in my new cats' acclimation room? How does this room work? So I've seen a lot of people saying to give your cat's their own room for a week or two with everything they need in there. And I just don't let them out of their for a few days?\r\n\r\nShould I hang out in their room with them so they get used to me? Or is that sort of invading their comfort and privacy that the room provides?",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Can you train your cat into liking kids? I have two cats, a boy and a girl, both about 4 years old. I currently don\u2019t have kids but would like to in the future. My girl cat is the problem cat when it comes to this topic. She gets extremely riled up when she hears kids screaming, crying, yelling, etc. I\u2019ve read somewhere that cats react that way because it sounds similar to a cat fight so I can understand how that can be agitating for her. Is there any way to get her over that? Like is there some kind of exposure therapy or something I can do? If nothing works I would have to consider giving her away, but my two babies(my cats) are practically bonded so I would have to give both away. That is obviously a last resort option that I honestly don\u2019t even want to consider but it is a reality I would have to face. Any input would be appreciated. Thanks!!",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Both of my cats are medically needy, I feel like I'm in too deep I have 2 cats,\r\nEve: ~6yo black Bombay, IBD diagnosed about a year ago now, on rx dry food and steroid, cuddly, human food fiend\r\nArchie: ~5yo shorthair, urinary issues and on rx wet food, also anxious and on Prozac but switching to another bc it isn't helping, Velcro cat, sweetest boy, very vocal\r\n\r\nI got Eve during 2020, and Archie about a year and a half later. I got Archie because Eve seemed lonely. She wasn't lonely, just an independent cat I learned with more time. Her and Archie coexist but not much more than that.\r\n\r\nEve is the light of my life, the first female cat I've owned and she has a special place in my heart. Archie is the sweetest love bug, little noodle boy. However, he's also incredibly needy in general, and the source of the majority of my woes. He requires much stimulation and I oblige. I play with him plenty and cuddle him as often as I can.\r\n\r\nRather than lingering on the woes, I'm mainly writing this in hopes of receiving support. These two are the first two cats I've owned wholly since living on my own. Knowing that IBD often turns into cancer later in life, and urinary issues can get expensive, I'm beside myself with the sadness that I won't have them in my life as long as I would if they were completely healthy.\r\n\r\nCurrently I can afford them and love them with my whole heart, it's just really difficult knowing that I may have to say goodbye to them sooner than I'd like.",
+      "gold": "health",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Cat Care Need practical hacks for my new cat! (No judgment please, read below) \ud83d\udc31\ud83d\ude4f\r\n\r\nI just adopted a 4-year-old Siamese cat (I\u2019m its 3rd owner).\r\n\r\nThe history:\r\n\r\nThe 1st owner said it used to wander.\r\n\r\nThe 2nd owner (my cousin) had multiple cats and said it stayed indoors for 3 months.\r\n\r\nNow, it\u2019s the only cat in my house.Our setup: We always keep our doors and windows open for airflow.Before anyone judges, I know many pet owners (including my cousin) leave their doors open without their pets running away.\r\n\r\nBut because this cat is still adjusting to its 3rd home, I am terrified it might wander off and a neighbor might pick it up.\r\n\r\nSince keeping the house locked shut isn't an option, what are the best ways to keep it safe while keeping the house breezy?",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "New cat, need help with adjustment I just got home from the shelter with the sweetest cat- she\u2019s an adult (figured this may be necessary for the info) I\u2019m kind of overwhelmed and worried that I made the wrong decision. She seems really scared and maybe my home isn\u2019t the right place for her. She\u2019s currently in the bathroom that I set aside for her- but I\u2019m also just not sure if that was the right space for the adjusting period.\r\n\r\nWhat can I do to make this go smoothly? Any kind words to soothe the nervousness within myself and the cat?",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Any tips for healthy cat? First time having a cat. She turns 1 in a few weeks. All I do is give food and toys. Not sure what foods are good to be honest I never got to conclusions. So I just do mix Purina one, Felix, gourmet, and wellness core dry as well.\r\n\r\nAre there any supplements to keep her healthy? Such as urinary support, extra vitamins anything that might prevent problems before they even start. Something good for vision, any specific toothpaste and also any specific toothbrush since atm I just use a baby toothbrush. Just anything extra I can do for her\r\n\r\nAre there any particular types of toys to keep her happy as she is used to then balls, mice, coils. Bought a bird that makes sound but didn't ever play with it.",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Was this the Vet's fault, or does my cat have medical problems? About a year ago I went to get my cat neutered. And the vet in town is fairly respected and we went in to take my cat Yoshi to get neutered. And when he came back he was blind and he forgot how to walk.\r\n\r\nThe vet told us they put him on anesthetics. And he kept waking up so they kept pumping the anesthetics. My dad told me she was a fairly young and new vet. Apparently my Yoshi died on the table and they had to give him cat CPR and oxygen several times to bring him back. The vet apologized profusely and felt awful, but I want to make sure this clinic is ok to continue taking Yoshi to.\r\n\r\nWhen we brought him home we weren't sure he was going to survive. He was hissing because he couldn't walk or see. He was blind. And my dad and I were angry.\r\n\r\nHowever he adjusted and slowly got part of his vision back. (we aren't sure if he's still blind) Although his personality wasn't the same. He's still my very sweet boy. He's just not as playful to this day. And we used air freshener in a room one time and he flipped out and started to become terrified and resentful, so we have to avoid that too.\r\n\r\nMy dad LOVES my cat as well and we are nervous that he will get himself hurt and we'll have to have him get surgery because the vet said to avoid that.\r\n\r\nIs this a veterinary practice issue, or does my cat need a medical diagnosis?",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Can I ask for ideas to train/retrain my cat? Hi all.\r\n\r\nI'm at a bit of a loss with my cat, a 5 year old Maine Coon. Male/neutered.\r\n\r\nWe used to live in a big house - 2 floors + furnished basement - where he could run around the whole place. We've had to move into a smaller apartment, and he doesn't understand we don't own the entire building. He hates closed doors, and keeps clawing/meowing at the door to be let out into the hallway, and once there he wants to go into other people's apartments. We obviously cannot let him do that. We give him walks in the hallway when we can, but he gets into moods where all he wants is to be in the hallway, meowing for hours on end. It can't be healthy for him.\r\n\r\nWe've tried traininghim to get used to closed doors, make sure to give him food water, his favorite window, etc with the door closed, and he loses his mind over it. When he gets into a mood we try to distract him with toys, pets, food, but he wants nothing to do with anything else once he sets his mind on it. The apartment door is all scratched up from him trying to get out.\r\n\r\nI don't know what to try here. How can we get through to him that some doors are closed to him, that he can't live in the hallway?",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Need advice on helping my cat adjust to a new living situation Hi everyone, i am looking for advice or opinions!!\r\nI recently went through a relationship change where we had 3 pets, my ex had a cat and dog of his own and other we got another cat, Rosie who is now about 3 years old.\r\n\r\nI moved into a spacious apartment and brought Rosie with me, but am starting to worry that she is not stimulated enough. I am a full time student online and work part time as a hairdresser so i am able to be home with her MOST of the time besides errands/activities and work. I spend roughly 45 minutes to an hour each day playing with her with toys (she doesn\u2019t always seem to have the drive to play by herself but loves it when i initiate it) and i cant help but feel like she is anxious in the adjustment to the new living space or under stimulated.\r\n\r\nShe has always been an affectionate cat on her own terms, but now it seems like she doesn\u2019t want to leave my side. If i walk into a room in the apartment she follows me (sometimes she leaves her wet food to do this which is kinda unusual for her) and she is VERY affectionate 80% of the time now. She always purrs and wants to be close to me or laying on me which i love, but i don\u2019t know if it\u2019s because she\u2019s uncomfortable.\r\n\r\nI\u2019ve been looking into more interactive toys like a cat exercise wheel or toys that move on their own for her to chase or paw at.\r\n\r\nMy other thought is adopting a second cat for her to have company. Historically she has never been without other animals, she was adopted from an open room shelter with roughly 15 other cats and immediately was brought into a home with two other pets. She loved to play with our other cat and had a natural curiosity about our dog.\r\n\r\nGrowing up my family had 3 cats, 2 that were from the same litter and one that was a stray that we picked up so i understand that adjustment periods between new cats can be stressful for pets and not always a perfect match.\r\n\r\nI\u2019m at a loss as to what i should do, i really really want her to be happy and comfortable in this new space but would love suggestions or to hear if anyone has had a similar experience!!",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Emergency trainingmy cats The title may seem crazy but hear me out. I\u2019m crate trainingmy cats. Using my dogs old crate (he\u2019s a pit so it\u2019s a big one). I put their bed in there so they go in and out to sleep. And I\u2019ve started leaving treats in there. They\u2019ve been chilling in it whenever they want to hide or feel safe. Don\u2019t worry I never shut them in there. The door is always open for them to go in and out.\r\n\r\nAnyways the reason I\u2019m doing this is because a few weeks ago there was a scare and I realized that if something happens and I need to get my cats there needs to be a safe place they all run to. Whether it\u2019s their carrying carrier or this crate. These cats are severely adverse to humans. They run away from me and they\u2019re fast so I can\u2019t catch them. So if there\u2019s a time where I need to get them out quickly I know where they\u2019ll run to.\r\n\r\nIt seems insane but I\u2019d rather them run into a crate than run away from me during an emergency.\r\n\r\nAnyway the reason I made this post is because cats run when they get scared. It\u2019s best to have a safe space for them to run to so that you can easily transport them in case of an emergency. Especially if you have multiple.",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "How to safely introduce and acclimate two senior cats? All because some irresponsible, heartless, and honestly, disgusting \"adult\" decided to move across the WORLD; yet decided that $3000 of paperwork is just too much. So they're leaving behind the sweetest 14-year old senior lady. (This turned out much longer than expected because I was getting angrier as I was typing)\r\n\r\nMy sister and I currently have an 11 year old void. He's a bit of a menace (to all other humans) and still quite spry for his age. As a younger cat, he did well with dogs but not with other male cats. He hasnt really been exposed to female cats since he was still with his siblings. We're worried he won't tolerate another cat in his territory.\r\n\r\nRegardless, we've decided that if senior lady ends up heading for the shelter, we will adopt her and make it work because she deserves to live out the rest of her life being loved. My sister and I are very fortunate to be in a situation to handle any and all vet bills that naturally come with age, even without insurance. Plus, our void only eats vet-grade food so we will likely do the same and upgrade her lifestyle. (Meanwhile we eat.. leftovers and whatever is on sale... \ud83e\udd21)\r\n\r\nWe've come up with several ideas:\r\n\r\nVoid goes in sisters room, the very-much-wanted senior goes in my room. We will get a separate water fountain, food dispenser, and litter robot for her to minimize scent issues. This way they only need to share the general space, and we can control/monitor their interactions.\r\n\r\nIf above fails, void gets deported to sister's bf's house because he is an absolute spoiled brat. It's essentially his holiday home and is fully furnished with his stuff. Senior kitty will then live with me until we can find a solution.\r\n\r\nI'm looking for advice on how to best approach this. Keeping her out of a shelter is non-negotiable. If things don't work out, at least we will have been a loving foster family. We would only give her up to someone who wants, loves, and can provide for her if it really comes to that (i.e. sister and I are okay with rearranging our living situations for the cats for whatever length of time necessary). I would really appreciate any help or techniques that have worked for anyone.\r\n\r\nIt's a long post but I'm just furious and heartbroken. Such immature, selfish, and undeserving owners - how could any pet parent fathom abandoning a relationship of 14 years? She must have been used as a convenient companion and cute toy, but never truly loved as a family member. Shame on the owner and I hope they lose all their valuables and luggage worth >$3000 during their move; bonus points for a stay in a sketchy hostel.\r\n\r\nI don't have pictures of her but she is just the cutest thing and we wouldn't be able to sleep at night knowing she's in a shelter. I promise once we get a more permanent grip on the situation, I will pay out all the cat taxes in photos.\r\n\r\nThanks in advance!!!\r\n\r\nedit: forgot the most important part. the ultimate goal is for the two (feline) boomers to live peacefully together.",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "trainingkitten to be indoors during the day? I found a stray kitten outside my house in July and have been taking care of her ever since. She seems to belong to a large group of stray cats that frequent my place (7-9 individuals frequent daily, my city runs a catch and release program so most have been spayed/neutered by me and neighbors). The city shelters has reached capacity, so I decided to keep her. She is very friendly to both cats and people (albeit a little timid) and is in perfect health.\r\n\r\nThe concern is that she gets lonely during the day seeing the other cats (and what I assume is her mom) hanging out outside. Despite having many toys, she tends to take out that energy on things around the house when alone. She'll whine by the door in the mornings to be let out and greet her family/colony, and always ends up finding a nook in the shed to sleep in during the day. When I come home, I just knock on the shed and she pops out to greet me and go back inside. While this has solved the destructive/ marking issues, I'm not sure if that will be tenable all the time due to cold and storms. She has access to many awnings, sheds, and patios on my property, but am curious if there's are some better alternatives to leaving her out unsupervised with the cat fam.",
+      "gold": "acclimation",
+      "predicted": "training"
+    },
+    {
+      "text": "need advice for acclimating cats to a new apartment & meeting for the first time hi! my girlfriend and i moved into a 1 bedroom apartment yesterday and we both have cats. i have a 6 year old maine coon boy (much bigger than her), and she has a 4 year old girl.\r\n\r\nour cats are both pretty scared from the move already and the new apartment, but this was also their first time meeting. we thought it would be okay at first, but now her cat has started hissing at my cat and he seems scared of her. her cat also lunged at my cat.\r\n\r\nthey both have separate food and water, but they were using the same litter robot. my cat was using it first, but hasn\u2019t used it since he has seen her using it, which is making me nervous because idk if he\u2019s using it. i bought a second litter box to arrive tomorrow to set up for him.\r\n\r\nwe originally had the feliway multicat diffuser plugged in but we read reviews that it can make aggression worse, so we unplugged it after about 24 hours plugged in.\r\n\r\nwe are working with a small space and want them to both become comfortable with the apartment. what is the best way to go about this, and will our cats ever be friends?",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Swedish cat health guidelines Hello everyone, I recently heard about the new swedish law about indoor cat health care (mostly I heard about the increased amount of hours of play per day) and I was wondering if there is a real \"document\" in which all the guidelines are listed. I tried to search online, but I didn't find it. So, has someone idea of it? Even if I live in Italy, I'm very interested in learning more about this :)",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "How to train cats? how did you train your cat not to touch certain stuff/scratch furniture?",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Need advice for a new living arrangement. I will be moving into a basement room in a house share situation soon. The room is very large, but it has no windows.\r\n\r\nUnfortunately, the house has 5 other cats, and my cat is extremely scared and avoidant of other cats. When I lived with my mom and her cats, they never ended up getting along in all the years living together.\r\n\r\nMy cat is now elderly at 13 years of age, and I'm not happy about putting her into such a stressful move at this point in her life. I want to make her as happy and comfortable as possible. But I'm worried about keeping her in a room with no windows.\r\n\r\nMy idea was to have a large tv on the wall that would play outdoor and animal scenes from Youtube, but I know that does not replace the heat and light of the sun.\r\n\r\nAny advice for her quality of life in this situation?\r\n",
+      "gold": "acclimation",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "My cat is sick Hi reddit. I have an old cat and he\u2019s been peeing and pooping himself a lot. I\u2019ve been to the vet already and they did some test and found nothing. I paid around 2k for all of it. I changed his good and it got better for a little bit but now it\u2019s happening again. Things have been really hard for me, im struggling with some serious mental health issues and the price of everything has gone up in Canada and I just cannot afford to go back to the vet with him. He\u2019s 17. Ive spend so much time cleaning after him, cancelling plans, not going to work because my appartement is covered in pee. Im so sad about it. My life quality is seriously impacted and i really dont wanna enthanize him but i cant keep going like this. Waking up in an appartement covered in poop is taking a toll on me and im already seeing a therapist for my depression every week. I dont know what to do, i found this cat outside during a snow storm 17 years ago and we\u2019ve been together every day since. Advise would be welcome.",
+      "gold": "health",
+      "predicted": "health"
+    },
+    {
+      "text": "Rescued friendly street kitten, hard to train I rescued a kitten from the streets around a month ago. The vet estimated she was about 1-2 months old. The kitten is quite friendly and tolerates handling pretty well (I can check her claws on every limb, sometimes can inspect her teeth, frequent displays of belly). She uses the litter very well (no accidents so far) and usually tries to sleep on me during the night. She's quite clingy, tends to follow me around, sleeps beside me when I'm working, so I'm assuming we've developed a good bond.\r\n\r\nThe only difficulty I'm having now is trainingher. I feel like she's so used to begging for food from strangers that its hard to teach her her name or certain commands because she'll default to usual begging behaviours, like pawing at you, constantly meowing with laser focus on the food, climbing on your lap to better reach it, etc. She's probably around 3-4 months old now so I'm figuring that maybe she's still too young to have the patience/focus to be trained? This is my first time having a kitten though, so I have no idea.\r\n\r\nWould appreciate any tips or firsthand accounts on how people handled their kittens with regards to training",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Accidentally crate trained my kitten Wanted to share the oddity I've created lol. I got my kitten a bit spontaneously, and my bedroom wasnt kitten-proofed when I brought her home. I intended on just having her sleep in my living room, but she cried at my bedroom door enough that I decided to just sleep on my couch that night and clean my room the next day.\r\n\r\nCue me having a family emergency and then getting some awful virus that knocked me off off my feet. The next night, I hadn't had time to kitten proof my room, so in a desperate move, I put her in her mesh travel backpack, zipped it up, and laid it right beside me in bed. She purred herself to sleep.\r\n\r\nThe next night: same thing, maybe with even more purring. I overslept my alarm, and she woke me up by meowing and scratching at the backpack, so I woke up and took her out to the living room where she immediately hopped into her litter box.\r\n\r\nFast forward to my room now being kitten proof, but now when she decides it's time for bed, she hops over to her backpack carrier and yeets herself inside before staring at me until I take her to bed like that. Every night, she purrs and purrs in that freaking backpack until she falls asleep.\r\n\r\nI know that cats aren't meant to like being contained like dogs do, so I am genuinely at such a loss at what is happening here lol. I'm wondering if she's seeing how much my dog is obsessed with her own crate and it's rubbed off. I'm not forcing her to stay in it or continue this routine, and she's electing to do this, so i guess it's fine, but still odd behavior. Thought I'd share since I've never heard of a cat acting like this",
+      "gold": "training",
+      "predicted": "acclimation"
+    },
+    {
+      "text": "Leash trainingSo I just bought two extra small dog harnesses to try and leash train my kitties. I have never done this before and was wondering if anyone has done some trial and error and has some tips to help me out?\r\n\r\nHere\u2019s my plan, please let me know what else I need to do:\r\n\r\nFirst I\u2019m getting them used to the harness indoors for 10-15 minutes a day, and using the time with the harness on as playtime with catnip and treats. My hope is they associate the harness with fun and playtime so they don\u2019t hide or run when I bring out the harness. I\u2019ve done this once, as I bought the harnesses today.\r\n\r\nMy next planned steps will be, once I can put the harness on without needing help holding the wiggly kitties still, and they just accept it as normal, I\u2019ll let them drag a leash around. Then I\u2019ll get them used to tension on the leash, and then move to outdoors.\r\n\r\nObviously this sounds good to me in theory, but is there anything I should be aware of, tips, things to look out for, or is it a good idea to leave the harness on unsupervised? I haven\u2019t, but for future reference. Also taking them outside, one cat (4 y/o) grew up on a farm so she\u2019s been out before but the other has been an apartment kitten her whole life (8 months.)\r\n\r\nThanks in advance!",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Cat trainingSo I\u2019ve changed my cat\u2019s litter box and he refuses to poop in it.\r\nMy cat is 5 years old and has been pooping around the house. I\u2019ve asked the vet and he told me to give him treats and train him again\r\nBut nothing has worked so far\r\nPlease help\ud83d\ude2d\ud83d\ude2d",
+      "gold": "training",
+      "predicted": "training"
+    },
+    {
+      "text": "Eye safe? Cat loves basking in 320 watt LED grow light My lovely cat has recently started basking in my grow light as it\u2019s starting to get colder outside and in the apartment.\r\n\r\nI\u2019m wondering if this is safe for her eyes though? She\u2019s a 10 year old and, as she ages, I find myself worrying more about her health.\r\n\r\nMy old boy who passed away almost two years ago at 19 went blind in his final month due to high blood pressure. It was tough to see him struggle to get around. And I just don\u2019t want that to happen to my girl before she\u2019s very close to the end if I can help it.",
+      "gold": "health",
+      "predicted": "health"
+    }
+  ]
+}
